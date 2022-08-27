@@ -1,0 +1,81 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded os_info v3.4.0
+START OF LEVEL 0
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "anyhow",
+        version: "1.0.58",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "cfg-if",
+        version: "1.0.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "home",
+        version: "0.5.3",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"anyhow-1.0.58-73100710d71699e12bb71599f29035682de5264eab4c7fd48bd631e15850b120"
+     Created binary (application) package
+   Compiling anyhow v1.0.58
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.BotaabggSmp0/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.75s
+wrote to "/Users/admin/tmp/quick/anyhow-1.0.58-73100710d71699e12bb71599f29035682de5264eab4c7fd48bd631e15850b120.tar"
+STARTING BUILD
+"cfg-if-1.0.0-1c5c0556da306059c2ff0e0ec4cfb9a11c31bbf0fc81e44ac39ecc5ad6c1ce48"
+     Created binary (application) package
+   Compiling cfg-if v1.0.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.aDoWEU2frHxW/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+wrote to "/Users/admin/tmp/quick/cfg-if-1.0.0-1c5c0556da306059c2ff0e0ec4cfb9a11c31bbf0fc81e44ac39ecc5ad6c1ce48.tar"
+STARTING BUILD
+"home-0.5.3-2a2bacc2f051bfccf7583f9a490f80156cc9343b5e344c84f0fc443799ea619d"
+     Created binary (application) package
+   Compiling home v0.5.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.c88KlA8IFtpu/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.33s
+wrote to "/Users/admin/tmp/quick/home-0.5.3-2a2bacc2f051bfccf7583f9a490f80156cc9343b5e344c84f0fc443799ea619d.tar"
+START OF LEVEL 1
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "log",
+        version: "0.4.17",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"log-0.4.17-370c4b9d108b265112cf9e48d968cfa3fb19a85148c71ba9c280e51bf55fac41"
+     Created binary (application) package
+   Compiling log v0.4.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.k68QTigFdz7n/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.49s
+wrote to "/Users/admin/tmp/quick/log-0.4.17-370c4b9d108b265112cf9e48d968cfa3fb19a85148c71ba9c280e51bf55fac41.tar"
+START OF LEVEL 2
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "os_info",
+        version: "3.4.0",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"os_info-3.4.0-1891f5ae07007a41089eb2b091adc62c17f3fb4750e96ad08c78aef9ca6d68bc"
+     Created binary (application) package
+   Compiling os_info v3.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.4UFi2y46v1M1/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.53s
+wrote to "/Users/admin/tmp/quick/os_info-3.4.0-1891f5ae07007a41089eb2b091adc62c17f3fb4750e96ad08c78aef9ca6d68bc.tar"
+START OF LEVEL 3
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "kani-verifier",
+        version: "0.8.0",
+        source: "registry `crates-io`",
+    },
+}
+🎉 We're done here 🎉

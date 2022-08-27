@@ -1,0 +1,337 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded quote v1.0.9
+  Downloaded thread_local v1.1.3
+  Downloaded globset v0.4.7
+  Downloaded grep v0.2.8
+  Downloaded grep-regex v0.1.9
+  Downloaded memmap2 v0.3.0
+  Downloaded memchr v2.4.0
+  Downloaded proc-macro2 v1.0.27
+  Downloaded serde_derive v1.0.126
+  Downloaded once_cell v1.7.2
+  Downloaded grep-searcher v0.1.8
+  Downloaded bstr v0.2.16
+  Downloaded serde v1.0.126
+  Downloaded syn v1.0.73
+  Downloaded serde_json v1.0.64
+  Downloaded bytecount v0.6.2
+  Downloaded libc v0.2.97
+  Downloaded encoding_rs v0.8.28
+START OF LEVEL 0
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "base64",
+        version: "0.13.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "bitflags",
+        version: "1.2.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "bytecount",
+        version: "0.6.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "cfg-if",
+        version: "1.0.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "fnv",
+        version: "1.0.7",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "itoa",
+        version: "0.4.7",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "lazy_static",
+        version: "1.4.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "libc",
+        version: "0.2.97",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "memchr",
+        version: "2.4.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "once_cell",
+        version: "1.7.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "regex-automata",
+        version: "0.1.10",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "regex-syntax",
+        version: "0.6.25",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "ryu",
+        version: "1.0.5",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "same-file",
+        version: "1.0.6",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "strsim",
+        version: "0.8.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "termcolor",
+        version: "1.1.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-width",
+        version: "0.1.8",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-xid",
+        version: "0.2.2",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"base64-0.13.0-965492bfb8a919399c140065e4af5be5d835d8439a09959813d3620f51f190cb"
+     Created binary (application) package
+   Compiling base64 v0.13.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.BKViF192ajfs/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.45s
+wrote to "/Users/admin/tmp/quick/base64-0.13.0-965492bfb8a919399c140065e4af5be5d835d8439a09959813d3620f51f190cb.tar"
+STARTING BUILD
+"bitflags-1.2.1-d14284d8aa0ecf5a8c1b8daf17564f784f6833cc0d1f3986db8b577ee7bf756e"
+     Created binary (application) package
+   Compiling bitflags v1.2.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.9T6txTM0tPrT/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.52s
+wrote to "/Users/admin/tmp/quick/bitflags-1.2.1-d14284d8aa0ecf5a8c1b8daf17564f784f6833cc0d1f3986db8b577ee7bf756e.tar"
+STARTING BUILD
+"bytecount-0.6.2-421dcbcf65bb2bfcf845df82f0ba92921a2a3a1ff3cc3af20cec4ba94c290c39"
+     Created binary (application) package
+   Compiling bytecount v0.6.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.7UDwarwuCrzT/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.32s
+wrote to "/Users/admin/tmp/quick/bytecount-0.6.2-421dcbcf65bb2bfcf845df82f0ba92921a2a3a1ff3cc3af20cec4ba94c290c39.tar"
+STARTING BUILD
+"cfg-if-1.0.0-1c5c0556da306059c2ff0e0ec4cfb9a11c31bbf0fc81e44ac39ecc5ad6c1ce48"
+     Created binary (application) package
+   Compiling cfg-if v1.0.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.zTRijqiDTIeC/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+wrote to "/Users/admin/tmp/quick/cfg-if-1.0.0-1c5c0556da306059c2ff0e0ec4cfb9a11c31bbf0fc81e44ac39ecc5ad6c1ce48.tar"
+STARTING BUILD
+"fnv-1.0.7-42dd116c8bc975405a99a507425ef1faceb2d8d5a3051e81262b8a42aae5c212"
+     Created binary (application) package
+   Compiling fnv v1.0.7
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.DFf22JlukASY/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/fnv-1.0.7-42dd116c8bc975405a99a507425ef1faceb2d8d5a3051e81262b8a42aae5c212.tar"
+STARTING BUILD
+"itoa-0.4.7-a9577f0db83acc98d8ebdbadb13bea22688d2f269f2836f91b3cfc42cc7ab216"
+     Created binary (application) package
+   Compiling itoa v0.4.7
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.hMnYRRxvfRrq/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/itoa-0.4.7-a9577f0db83acc98d8ebdbadb13bea22688d2f269f2836f91b3cfc42cc7ab216.tar"
+STARTING BUILD
+"lazy_static-1.4.0-10d4523649d2ce71fe87ca1ba906a02faed845dc54bd23444b07c338d1cd2543"
+     Created binary (application) package
+   Compiling lazy_static v1.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.jKGz4Pj0RyjQ/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/lazy_static-1.4.0-10d4523649d2ce71fe87ca1ba906a02faed845dc54bd23444b07c338d1cd2543.tar"
+STARTING BUILD
+"libc-0.2.97-de345ca19355096e6b50d177d06631f6906bfe28af0084649cdf3eb286b9c078"
+     Created binary (application) package
+   Compiling libc v0.2.97
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.dnIVefRnTSVk/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.69s
+wrote to "/Users/admin/tmp/quick/libc-0.2.97-de345ca19355096e6b50d177d06631f6906bfe28af0084649cdf3eb286b9c078.tar"
+STARTING BUILD
+"memchr-2.4.0-4c7b9184abbdb6b1431e0c6731ae6154ad2b8e5d3841fab7e464ac25196dce14"
+     Created binary (application) package
+   Compiling memchr v2.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.mvgpZg9S0fli/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.68s
+wrote to "/Users/admin/tmp/quick/memchr-2.4.0-4c7b9184abbdb6b1431e0c6731ae6154ad2b8e5d3841fab7e464ac25196dce14.tar"
+STARTING BUILD
+"once_cell-1.7.2-71855e1ebc2355bddf6f596b130e5d6040283194502f67859970d8556148073c"
+     Created binary (application) package
+   Compiling once_cell v1.7.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.k6HnyqoXhRcw/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.35s
+wrote to "/Users/admin/tmp/quick/once_cell-1.7.2-71855e1ebc2355bddf6f596b130e5d6040283194502f67859970d8556148073c.tar"
+STARTING BUILD
+"regex-automata-0.1.10-b30408da60f4cd1934678c967a589dbb646c18110b6dd224eb461f9b17e4b7c4"
+     Created binary (application) package
+   Compiling regex-automata v0.1.10
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.fnyvhZ4C8uOr/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.39s
+wrote to "/Users/admin/tmp/quick/regex-automata-0.1.10-b30408da60f4cd1934678c967a589dbb646c18110b6dd224eb461f9b17e4b7c4.tar"
+STARTING BUILD
+"regex-syntax-0.6.25-40b92c7de38ba6454c13a1c21a14c676001ecd7a3ffedc7c6f197a77f23b2238"
+     Created binary (application) package
+   Compiling regex-syntax v0.6.25
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.p9ZAvJQ1kkZU/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.13s
+wrote to "/Users/admin/tmp/quick/regex-syntax-0.6.25-40b92c7de38ba6454c13a1c21a14c676001ecd7a3ffedc7c6f197a77f23b2238.tar"
+STARTING BUILD
+"ryu-1.0.5-7a884d7c6ea86c6f69fb6c9b2b338c19b87196dbba126e8da79547017a0e80a2"
+     Created binary (application) package
+   Compiling ryu v1.0.5
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.e0W9biJm2s2w/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.58s
+wrote to "/Users/admin/tmp/quick/ryu-1.0.5-7a884d7c6ea86c6f69fb6c9b2b338c19b87196dbba126e8da79547017a0e80a2.tar"
+STARTING BUILD
+"same-file-1.0.6-96dcc66d3947ab08dd51e64bfa963602fb018d2d81e24bebe687e60ced12ee01"
+     Created binary (application) package
+   Compiling same-file v1.0.6
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.G9S8HM8Ci1Zw/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.32s
+wrote to "/Users/admin/tmp/quick/same-file-1.0.6-96dcc66d3947ab08dd51e64bfa963602fb018d2d81e24bebe687e60ced12ee01.tar"
+STARTING BUILD
+"strsim-0.8.0-a5e56d7fd689c875c85a5f12175428bcefed20fe17d6c96ef43c41b49daadf48"
+     Created binary (application) package
+   Compiling strsim v0.8.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.QcxtXCTHQ3EH/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.48s
+wrote to "/Users/admin/tmp/quick/strsim-0.8.0-a5e56d7fd689c875c85a5f12175428bcefed20fe17d6c96ef43c41b49daadf48.tar"
+STARTING BUILD
+"termcolor-1.1.2-8219652a03dedc7162645b1a6ae9d55b1381f35e7bd9ff9c451dccb26e23ad64"
+     Created binary (application) package
+   Compiling termcolor v1.1.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.CasKqfHhSvHe/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.48s
+wrote to "/Users/admin/tmp/quick/termcolor-1.1.2-8219652a03dedc7162645b1a6ae9d55b1381f35e7bd9ff9c451dccb26e23ad64.tar"
+STARTING BUILD
+"unicode-width-0.1.8-b8c8679b7a4d955ee74346a622e2b1eeb2e705f6e823c0ca4bf2ece3ec9b0f0d"
+     Created binary (application) package
+   Compiling unicode-width v0.1.8
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.5hH9xrdcqeMH/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/unicode-width-0.1.8-b8c8679b7a4d955ee74346a622e2b1eeb2e705f6e823c0ca4bf2ece3ec9b0f0d.tar"
+STARTING BUILD
+"unicode-xid-0.2.2-3c66d9de2c7eca352bc369db8b156339d56c69d5ca0e1bbe08f67a771692be8f"
+     Created binary (application) package
+   Compiling unicode-xid v0.2.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Vmegi04UvPcl/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.31s
+wrote to "/Users/admin/tmp/quick/unicode-xid-0.2.2-3c66d9de2c7eca352bc369db8b156339d56c69d5ca0e1bbe08f67a771692be8f.tar"
+START OF LEVEL 1
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "aho-corasick",
+        version: "0.7.18",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "atty",
+        version: "0.2.14",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "bstr",
+        version: "0.2.16",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "crossbeam-utils",
+        version: "0.8.5",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "encoding_rs",
+        version: "0.8.28",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "grep-matcher",
+        version: "0.1.5",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "log",
+        version: "0.4.14",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "memmap2",
+        version: "0.3.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "num_cpus",
+        version: "1.13.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "proc-macro2",
+        version: "1.0.27",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "textwrap",
+        version: "0.11.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "thread_local",
+        version: "1.1.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "walkdir",
+        version: "2.3.2",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"aho-corasick-0.7.18-63015ecace6ebe2bc27fb1ff7018e658435e9e0513e64befaabc714145c77e0b"
+     Created binary (application) package
+   Compiling aho-corasick v0.7.18
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.jSeEPbJV9G9u/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.76s
+wrote to "/Users/admin/tmp/quick/aho-corasick-0.7.18-63015ecace6ebe2bc27fb1ff7018e658435e9e0513e64befaabc714145c77e0b.tar"
+STARTING BUILD
+"atty-0.2.14-b22b1619e73f55888289b77c49c782ef0a8cfba96c1b518dffb4f1bf50b8c088"
+     Created binary (application) package
+   Compiling atty v0.2.14
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.4Lw7dQXK2qeD/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/atty-0.2.14-b22b1619e73f55888289b77c49c782ef0a8cfba96c1b518dffb4f1bf50b8c088.tar"
+STARTING BUILD
+"bstr-0.2.16-d7623afd0abc09e047614a841a436c8a8a36f1d7a23b8b1ff1b7d663a1b3a371"
+     Created binary (application) package
+   Compiling bstr v0.2.16
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.rwUOG5n4onmF/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.65s
+wrote to "/Users/admin/tmp/quick/bstr-0.2.16-d7623afd0abc09e047614a841a436c8a8a36f1d7a23b8b1ff1b7d663a1b3a371.tar"
+STARTING BUILD
+"crossbeam-utils-0.8.5-8a4b51fdd672a48f163e51d5faa0ebfa0e87579910c260f12246ae2d5e7f7832"
+     Created binary (application) package
+error: failed to select a version for the requirement `crossbeam-utils = "=0.8.5"`
+candidate versions found which didn't match: 0.8.11, 0.8.10, 0.8.8, ...
+location searched: crates.io index
+required by package `cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.HcfvIa15hnCR/cargo-quickbuild-scratchpad)`
+As a reminder, you're using offline mode (--offline) which can sometimes cause surprising resolution failures, if this error is too confusing you may wish to retry without the offline flag.
+Error: command failed

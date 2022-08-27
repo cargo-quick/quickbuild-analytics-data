@@ -1,0 +1,1435 @@
+ Downloading crates ...
+  Downloaded svm-rs v0.2.15
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded serde_urlencoded v0.7.0
+  Downloaded tokio-macros v1.7.0
+  Downloaded socket2 v0.4.2
+  Downloaded tokio-rustls v0.23.2
+  Downloaded tokio-util v0.6.9
+  Downloaded typenum v1.14.0
+  Downloaded zeroize v1.4.3
+  Downloaded cpufeatures v0.2.1
+  Downloaded tracing-core v0.1.22
+  Downloaded tower-service v0.3.1
+  Downloaded webpki v0.21.4
+  Downloaded futures-sink v0.3.17
+  Downloaded futures-channel v0.3.17
+  Downloaded futures-core v0.3.17
+  Downloaded http-body v0.4.4
+  Downloaded futures-task v0.3.17
+  Downloaded httparse v1.5.1
+  Downloaded ipnet v2.3.1
+  Downloaded webpki-roots v0.21.1
+  Downloaded fs2 v0.4.3
+  Downloaded dialoguer v0.8.0
+  Downloaded clap_derive v3.0.6
+  Downloaded console v0.14.1
+  Downloaded tracing-attributes v0.1.19
+  Downloaded once_cell v1.9.0
+  Downloaded clap v3.0.6
+  Downloaded rustls-pemfile v0.2.1
+  Downloaded h2 v0.3.9
+  Downloaded smallvec v1.7.0
+  Downloaded slab v0.4.5
+  Downloaded serde_derive v1.0.132
+  Downloaded semver v1.0.4
+  Downloaded generic-array v0.14.4
+  Downloaded lock_api v0.4.5
+  Downloaded tempfile v3.2.0
+  Downloaded anyhow v1.0.51
+  Downloaded serde v1.0.132
+  Downloaded serde_json v1.0.79
+  Downloaded futures-util v0.3.17
+  Downloaded http v0.2.5
+  Downloaded rustls v0.20.2
+  Downloaded proc-macro2 v1.0.34
+  Downloaded tracing v0.1.30
+  Downloaded hyper v0.14.16
+  Downloaded reqwest v0.11.7
+  Downloaded syn v1.0.82
+  Downloaded pin-project-lite v0.2.7
+  Downloaded tokio v1.15.0
+  Downloaded encoding_rs v0.8.30
+START OF LEVEL 0
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "anyhow",
+        version: "1.0.51",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "autocfg",
+        version: "1.0.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "base64",
+        version: "0.13.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "bitflags",
+        version: "1.3.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "bytes",
+        version: "1.1.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "cfg-if",
+        version: "1.0.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "either",
+        version: "1.6.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "fnv",
+        version: "1.0.7",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-core",
+        version: "0.3.17",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-sink",
+        version: "0.3.17",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-task",
+        version: "0.3.17",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "hashbrown",
+        version: "0.11.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "heck",
+        version: "0.4.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "hex",
+        version: "0.4.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "home",
+        version: "0.5.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "httparse",
+        version: "1.5.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "httpdate",
+        version: "1.0.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "ipnet",
+        version: "2.3.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "itoa",
+        version: "0.4.8",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "itoa",
+        version: "1.0.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "lazy_static",
+        version: "1.4.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "libc",
+        version: "0.2.112",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "matches",
+        version: "0.1.9",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "memchr",
+        version: "2.4.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "mime",
+        version: "0.3.16",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "number_prefix",
+        version: "0.4.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "once_cell",
+        version: "1.9.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "opaque-debug",
+        version: "0.3.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "percent-encoding",
+        version: "2.1.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "pin-project-lite",
+        version: "0.2.7",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "pin-utils",
+        version: "0.1.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "ppv-lite86",
+        version: "0.2.15",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "regex-syntax",
+        version: "0.6.25",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "remove_dir_all",
+        version: "0.5.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "ryu",
+        version: "1.0.9",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "scopeguard",
+        version: "1.1.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "slab",
+        version: "0.4.5",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "smallvec",
+        version: "1.7.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "strsim",
+        version: "0.10.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "termcolor",
+        version: "1.1.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "textwrap",
+        version: "0.14.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tinyvec_macros",
+        version: "0.1.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tower-service",
+        version: "0.3.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "try-lock",
+        version: "0.2.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "typenum",
+        version: "1.14.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-bidi",
+        version: "0.3.7",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-width",
+        version: "0.1.9",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-xid",
+        version: "0.2.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "untrusted",
+        version: "0.7.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "version_check",
+        version: "0.9.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "zeroize",
+        version: "1.4.3",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"anyhow-1.0.51-7a7159cab16bd60cea93dca149779a62d30e0e6560ec5bd17cb87d1ca218b3d3"
+     Created binary (application) package
+   Compiling anyhow v1.0.51
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.IUkbsxRM18Nc/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.74s
+wrote to "/Users/admin/tmp/quick/anyhow-1.0.51-7a7159cab16bd60cea93dca149779a62d30e0e6560ec5bd17cb87d1ca218b3d3.tar"
+STARTING BUILD
+"autocfg-1.0.1-c9a25e71a6f3c53a21c2bf8206b1c1278cf9fd18f74f20873ee6b1d355a2ed74"
+     Created binary (application) package
+   Compiling autocfg v1.0.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.YEkBjiqPfyar/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.51s
+wrote to "/Users/admin/tmp/quick/autocfg-1.0.1-c9a25e71a6f3c53a21c2bf8206b1c1278cf9fd18f74f20873ee6b1d355a2ed74.tar"
+STARTING BUILD
+"base64-0.13.0-965492bfb8a919399c140065e4af5be5d835d8439a09959813d3620f51f190cb"
+     Created binary (application) package
+   Compiling base64 v0.13.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.lUseHdRTSUOI/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.43s
+wrote to "/Users/admin/tmp/quick/base64-0.13.0-965492bfb8a919399c140065e4af5be5d835d8439a09959813d3620f51f190cb.tar"
+STARTING BUILD
+"bitflags-1.3.2-f9131a0a2e3402a9185e19603221d22ea8ef1985256926f6acdd833068dee051"
+     Created binary (application) package
+   Compiling bitflags v1.3.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.RI0AMWvEwLTP/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/bitflags-1.3.2-f9131a0a2e3402a9185e19603221d22ea8ef1985256926f6acdd833068dee051.tar"
+STARTING BUILD
+"bytes-1.1.0-50491cb462237c454a7e00c85af4c6795d03bdf92e1308273ca01cee79afe0d5"
+     Created binary (application) package
+   Compiling bytes v1.1.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.MjVggxxEkdSa/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.56s
+wrote to "/Users/admin/tmp/quick/bytes-1.1.0-50491cb462237c454a7e00c85af4c6795d03bdf92e1308273ca01cee79afe0d5.tar"
+STARTING BUILD
+"cfg-if-1.0.0-1c5c0556da306059c2ff0e0ec4cfb9a11c31bbf0fc81e44ac39ecc5ad6c1ce48"
+     Created binary (application) package
+   Compiling cfg-if v1.0.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.vvAGT6QPWVWt/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+wrote to "/Users/admin/tmp/quick/cfg-if-1.0.0-1c5c0556da306059c2ff0e0ec4cfb9a11c31bbf0fc81e44ac39ecc5ad6c1ce48.tar"
+STARTING BUILD
+"either-1.6.1-9e224e862448b18822fb6e5779dda24da8a6876d8bfd574721d86a6f29ade6cc"
+     Created binary (application) package
+   Compiling either v1.6.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.jOBwmtJijgO3/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/either-1.6.1-9e224e862448b18822fb6e5779dda24da8a6876d8bfd574721d86a6f29ade6cc.tar"
+STARTING BUILD
+"fnv-1.0.7-42dd116c8bc975405a99a507425ef1faceb2d8d5a3051e81262b8a42aae5c212"
+     Created binary (application) package
+   Compiling fnv v1.0.7
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.9zWhOpndmGSo/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/fnv-1.0.7-42dd116c8bc975405a99a507425ef1faceb2d8d5a3051e81262b8a42aae5c212.tar"
+STARTING BUILD
+"futures-core-0.3.17-5cb489e86507778b2037fbb07812c4afcee914cde6b0910119f21579204a634f"
+     Created binary (application) package
+   Compiling futures-core v0.3.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.LdXl9o9HWSEN/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.45s
+wrote to "/Users/admin/tmp/quick/futures-core-0.3.17-5cb489e86507778b2037fbb07812c4afcee914cde6b0910119f21579204a634f.tar"
+STARTING BUILD
+"futures-sink-0.3.17-0671562a0841cb296c942255833bc3bde59f0549fc84446473743f6a051f8a0b"
+     Created binary (application) package
+   Compiling futures-sink v0.3.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.6JWFLOdkA7Wk/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/futures-sink-0.3.17-0671562a0841cb296c942255833bc3bde59f0549fc84446473743f6a051f8a0b.tar"
+STARTING BUILD
+"futures-task-0.3.17-fd65d8eb61c28ae0250ba82ad5fb4fa284caac07b4bd7a7e08eb36a51be8b65d"
+     Created binary (application) package
+   Compiling futures-task v0.3.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.X2xJsvkhwWhx/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.44s
+wrote to "/Users/admin/tmp/quick/futures-task-0.3.17-fd65d8eb61c28ae0250ba82ad5fb4fa284caac07b4bd7a7e08eb36a51be8b65d.tar"
+STARTING BUILD
+"hashbrown-0.11.2-2ba449022bf36bcabf8754715be4106983f8f6c11e51bbfe8f3fb247c0de689c"
+     Created binary (application) package
+   Compiling hashbrown v0.11.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.UUuFavREqKaT/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.48s
+wrote to "/Users/admin/tmp/quick/hashbrown-0.11.2-2ba449022bf36bcabf8754715be4106983f8f6c11e51bbfe8f3fb247c0de689c.tar"
+STARTING BUILD
+"heck-0.4.0-12921529bb3c38ec58c29b55882e50ad0933cf74d09a9c899c05ffe21a79c74b"
+     Created binary (application) package
+   Compiling heck v0.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.9aQHdze0IDDU/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.39s
+wrote to "/Users/admin/tmp/quick/heck-0.4.0-12921529bb3c38ec58c29b55882e50ad0933cf74d09a9c899c05ffe21a79c74b.tar"
+STARTING BUILD
+"hex-0.4.3-e0d2a8de1eb2fa925d578e8123f1d1a89a6553a84512c8b0536827e654cf34a8"
+     Created binary (application) package
+   Compiling hex v0.4.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.egnZ8m10oYWt/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.40s
+wrote to "/Users/admin/tmp/quick/hex-0.4.3-e0d2a8de1eb2fa925d578e8123f1d1a89a6553a84512c8b0536827e654cf34a8.tar"
+STARTING BUILD
+"home-0.5.3-2a2bacc2f051bfccf7583f9a490f80156cc9343b5e344c84f0fc443799ea619d"
+     Created binary (application) package
+   Compiling home v0.5.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.sZevS1V7F9q4/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.35s
+wrote to "/Users/admin/tmp/quick/home-0.5.3-2a2bacc2f051bfccf7583f9a490f80156cc9343b5e344c84f0fc443799ea619d.tar"
+STARTING BUILD
+"httparse-1.5.1-4475a3e8253c77adb12c30a556812afb033f8d92e0f33cb46e6aa97c019ded0c"
+     Created binary (application) package
+   Compiling httparse v1.5.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.XBYH9sngRR2F/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.59s
+wrote to "/Users/admin/tmp/quick/httparse-1.5.1-4475a3e8253c77adb12c30a556812afb033f8d92e0f33cb46e6aa97c019ded0c.tar"
+STARTING BUILD
+"httpdate-1.0.2-8e395a4dbda3b9d5c541ce781af99f140a7641028ed965ff15c74de8bac16188"
+     Created binary (application) package
+   Compiling httpdate v1.0.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Y1bugQavIDiE/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.41s
+wrote to "/Users/admin/tmp/quick/httpdate-1.0.2-8e395a4dbda3b9d5c541ce781af99f140a7641028ed965ff15c74de8bac16188.tar"
+STARTING BUILD
+"ipnet-2.3.1-50707cae7ca300f2ee8eb50d0af6fc3be6de7331b5a17a83ab106c9a0e2af62c"
+     Created binary (application) package
+   Compiling ipnet v2.3.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Hy2vJ4Chz4IB/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.64s
+wrote to "/Users/admin/tmp/quick/ipnet-2.3.1-50707cae7ca300f2ee8eb50d0af6fc3be6de7331b5a17a83ab106c9a0e2af62c.tar"
+STARTING BUILD
+"itoa-0.4.8-95827688ae1bb7a9665a31ddb51cd2fd9afc8f95ac8c5edaec8043a92f22fe28"
+     Created binary (application) package
+   Compiling itoa v0.4.8
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.iOejpuJaXFOF/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.31s
+wrote to "/Users/admin/tmp/quick/itoa-0.4.8-95827688ae1bb7a9665a31ddb51cd2fd9afc8f95ac8c5edaec8043a92f22fe28.tar"
+STARTING BUILD
+"itoa-1.0.1-84170c9bb59179107fa3c5007bfd79abc59cd7fd697530f5b72e1787e7cf1928"
+     Created binary (application) package
+   Compiling itoa v1.0.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Gyx92AjcYaEi/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/itoa-1.0.1-84170c9bb59179107fa3c5007bfd79abc59cd7fd697530f5b72e1787e7cf1928.tar"
+STARTING BUILD
+"lazy_static-1.4.0-10d4523649d2ce71fe87ca1ba906a02faed845dc54bd23444b07c338d1cd2543"
+     Created binary (application) package
+   Compiling lazy_static v1.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.PSDsY6WsOoQ0/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/lazy_static-1.4.0-10d4523649d2ce71fe87ca1ba906a02faed845dc54bd23444b07c338d1cd2543.tar"
+STARTING BUILD
+"libc-0.2.112-d8853e5fbd8b974f4ae13bddff251e126edc2006f0298427053c375433f90cef"
+     Created binary (application) package
+   Compiling libc v0.2.112
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.CzBdYmK2ugOU/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.70s
+wrote to "/Users/admin/tmp/quick/libc-0.2.112-d8853e5fbd8b974f4ae13bddff251e126edc2006f0298427053c375433f90cef.tar"
+STARTING BUILD
+"matches-0.1.9-6824a4bd3ad858447140ce8d946625dfeb7d1711998388303eaa9169b05ba6f4"
+     Created binary (application) package
+   Compiling matches v0.1.9
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.UqQ266gCD6IJ/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+wrote to "/Users/admin/tmp/quick/matches-0.1.9-6824a4bd3ad858447140ce8d946625dfeb7d1711998388303eaa9169b05ba6f4.tar"
+STARTING BUILD
+"memchr-2.4.1-a4efbea99e0537565166134eda9732a5405d6a0a715b9b05c05c8afb1a735fac"
+     Created binary (application) package
+   Compiling memchr v2.4.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.oPa9cqJTHLIw/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.71s
+wrote to "/Users/admin/tmp/quick/memchr-2.4.1-a4efbea99e0537565166134eda9732a5405d6a0a715b9b05c05c8afb1a735fac.tar"
+STARTING BUILD
+"mime-0.3.16-ec0ecb55e8d0f339f60d13282c98501bf7695381467022cb0340f718e0e32eb8"
+     Created binary (application) package
+   Compiling mime v0.3.16
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.bjTMUZBoRhFH/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.44s
+wrote to "/Users/admin/tmp/quick/mime-0.3.16-ec0ecb55e8d0f339f60d13282c98501bf7695381467022cb0340f718e0e32eb8.tar"
+STARTING BUILD
+"number_prefix-0.4.0-9df965878f75ffcb04631912bc7f68b222ab3650462aed6389e34ce610e2a29c"
+     Created binary (application) package
+   Compiling number_prefix v0.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.8W1zGHRf3d2C/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.32s
+wrote to "/Users/admin/tmp/quick/number_prefix-0.4.0-9df965878f75ffcb04631912bc7f68b222ab3650462aed6389e34ce610e2a29c.tar"
+STARTING BUILD
+"once_cell-1.9.0-19553a3f6246deb79f5bb9d7fb1ef9a13e7a37969210efafc414a39d3366eb3a"
+     Created binary (application) package
+   Compiling once_cell v1.9.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.uwhRpODHPYEU/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.37s
+wrote to "/Users/admin/tmp/quick/once_cell-1.9.0-19553a3f6246deb79f5bb9d7fb1ef9a13e7a37969210efafc414a39d3366eb3a.tar"
+STARTING BUILD
+"opaque-debug-0.3.0-29754a9764b721dcc0a4c680b7c6215c65fed9d7975b42736ab92a0f6052efd4"
+     Created binary (application) package
+   Compiling opaque-debug v0.3.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Bwt9tPg3Yhbu/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+wrote to "/Users/admin/tmp/quick/opaque-debug-0.3.0-29754a9764b721dcc0a4c680b7c6215c65fed9d7975b42736ab92a0f6052efd4.tar"
+STARTING BUILD
+"percent-encoding-2.1.0-85e93b6261b9d7681b752a6b4aaceb0473ee18818e8ae90b8bd6895a024ad307"
+     Created binary (application) package
+   Compiling percent-encoding v2.1.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.NVTnRR9rjbQ3/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.37s
+wrote to "/Users/admin/tmp/quick/percent-encoding-2.1.0-85e93b6261b9d7681b752a6b4aaceb0473ee18818e8ae90b8bd6895a024ad307.tar"
+STARTING BUILD
+"pin-project-lite-0.2.7-0bdf1834bb99903cf006b637cbddb32b1dde78e4cbd952603c4630445a6e3ba8"
+     Created binary (application) package
+   Compiling pin-project-lite v0.2.7
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Ytz7BPTfwoST/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+wrote to "/Users/admin/tmp/quick/pin-project-lite-0.2.7-0bdf1834bb99903cf006b637cbddb32b1dde78e4cbd952603c4630445a6e3ba8.tar"
+STARTING BUILD
+"pin-utils-0.1.0-b831cc92da461e8271dd6cdbefc3aef4c3dc3d7efe42634b4bcd74bc721b31ec"
+     Created binary (application) package
+   Compiling pin-utils v0.1.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.2Y35blqSSPdl/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+wrote to "/Users/admin/tmp/quick/pin-utils-0.1.0-b831cc92da461e8271dd6cdbefc3aef4c3dc3d7efe42634b4bcd74bc721b31ec.tar"
+STARTING BUILD
+"ppv-lite86-0.2.15-534d86b2d12a025ab7bc3ebc314d7bd3e38f4e0f6ed7960c6993794f251c43aa"
+     Created binary (application) package
+   Compiling ppv-lite86 v0.2.15
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.n0zTfAXMRVw1/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.39s
+wrote to "/Users/admin/tmp/quick/ppv-lite86-0.2.15-534d86b2d12a025ab7bc3ebc314d7bd3e38f4e0f6ed7960c6993794f251c43aa.tar"
+STARTING BUILD
+"regex-syntax-0.6.25-84d1444374bc5b1b66f6f78f21405f30edf8155116a5d97f086361de05a31815"
+     Created binary (application) package
+   Compiling regex-syntax v0.6.25
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.eGa9ZKA4ErAg/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.63s
+wrote to "/Users/admin/tmp/quick/regex-syntax-0.6.25-84d1444374bc5b1b66f6f78f21405f30edf8155116a5d97f086361de05a31815.tar"
+STARTING BUILD
+"remove_dir_all-0.5.3-f43753cfaad8a8c67978af12f73a380c36b5652b061228f662973c927c674e4b"
+     Created binary (application) package
+   Compiling remove_dir_all v0.5.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.FSPXgmOJrG7Q/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+wrote to "/Users/admin/tmp/quick/remove_dir_all-0.5.3-f43753cfaad8a8c67978af12f73a380c36b5652b061228f662973c927c674e4b.tar"
+STARTING BUILD
+"ryu-1.0.9-8e59e117a4e2ea5be6fbc6dce71ccf186178bdc7905939cbdeb9f269f34cc23b"
+     Created binary (application) package
+   Compiling ryu v1.0.9
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.PQwWAhxwkT8o/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.36s
+wrote to "/Users/admin/tmp/quick/ryu-1.0.9-8e59e117a4e2ea5be6fbc6dce71ccf186178bdc7905939cbdeb9f269f34cc23b.tar"
+STARTING BUILD
+"scopeguard-1.1.0-91921f71afbc47d0a036484aeb5e6cfb4cb30848d888677bb4132207543de614"
+     Created binary (application) package
+   Compiling scopeguard v1.1.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.34aALKqFhFbH/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/scopeguard-1.1.0-91921f71afbc47d0a036484aeb5e6cfb4cb30848d888677bb4132207543de614.tar"
+STARTING BUILD
+"slab-0.4.5-1fa6cd3b2fc139ddd5dbadabb9f004793b0b6c09de4f4848fece0f03dc4f700b"
+     Created binary (application) package
+   Compiling slab v0.4.5
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.cMta8xvR6F9K/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.31s
+wrote to "/Users/admin/tmp/quick/slab-0.4.5-1fa6cd3b2fc139ddd5dbadabb9f004793b0b6c09de4f4848fece0f03dc4f700b.tar"
+STARTING BUILD
+"smallvec-1.7.0-67e2fae4cbba6f0e717fc1d553dd9c95f58cd4b7c0dd4e3e8647518ca04f9e18"
+     Created binary (application) package
+   Compiling smallvec v1.7.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.B32alzMiBJaI/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.36s
+wrote to "/Users/admin/tmp/quick/smallvec-1.7.0-67e2fae4cbba6f0e717fc1d553dd9c95f58cd4b7c0dd4e3e8647518ca04f9e18.tar"
+STARTING BUILD
+"strsim-0.10.0-5d285b7a94a3f2cc381ce2434a53aba13bfe024587f831f823842b3af91dee77"
+     Created binary (application) package
+   Compiling strsim v0.10.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.T2dakLCaqh7V/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.52s
+wrote to "/Users/admin/tmp/quick/strsim-0.10.0-5d285b7a94a3f2cc381ce2434a53aba13bfe024587f831f823842b3af91dee77.tar"
+STARTING BUILD
+"termcolor-1.1.2-8219652a03dedc7162645b1a6ae9d55b1381f35e7bd9ff9c451dccb26e23ad64"
+     Created binary (application) package
+   Compiling termcolor v1.1.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.wZJxHJZl8nqn/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.49s
+wrote to "/Users/admin/tmp/quick/termcolor-1.1.2-8219652a03dedc7162645b1a6ae9d55b1381f35e7bd9ff9c451dccb26e23ad64.tar"
+STARTING BUILD
+"textwrap-0.14.2-f09aa79d0b4c9d88fd400197d8e1ade9255adbb585a46c42a41d601b3329745d"
+     Created binary (application) package
+   Compiling textwrap v0.14.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.T7ZAfJyGHrmS/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.49s
+wrote to "/Users/admin/tmp/quick/textwrap-0.14.2-f09aa79d0b4c9d88fd400197d8e1ade9255adbb585a46c42a41d601b3329745d.tar"
+STARTING BUILD
+"tinyvec_macros-0.1.0-f80064f93a813517d8f5ea9f6b3a2490fc5a50f237fcb9cc68719b6700fca744"
+     Created binary (application) package
+   Compiling tinyvec_macros v0.1.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.2UDcGGELgeKV/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/tinyvec_macros-0.1.0-f80064f93a813517d8f5ea9f6b3a2490fc5a50f237fcb9cc68719b6700fca744.tar"
+STARTING BUILD
+"tower-service-0.3.1-3ce88427ec0cdfade63339294dc6a68455a7d11e61e9c8c088e04799d1c96955"
+     Created binary (application) package
+   Compiling tower-service v0.3.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.tDjSztdsh1cs/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/tower-service-0.3.1-3ce88427ec0cdfade63339294dc6a68455a7d11e61e9c8c088e04799d1c96955.tar"
+STARTING BUILD
+"try-lock-0.2.3-3547b1c126e467b2bf2e473cd4a8747ea26a8ae5f8de74fd57c57ad7e1da4bfb"
+     Created binary (application) package
+   Compiling try-lock v0.2.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.fm6zBz9uIBEh/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.29s
+wrote to "/Users/admin/tmp/quick/try-lock-0.2.3-3547b1c126e467b2bf2e473cd4a8747ea26a8ae5f8de74fd57c57ad7e1da4bfb.tar"
+STARTING BUILD
+"typenum-1.14.0-46ca18e4eafd145b796d4c0058cc009bebec2e5ca85fa0dfb790d36e4daa4801"
+     Created binary (application) package
+   Compiling typenum v1.14.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.BHQMbUigMAkc/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.06s
+wrote to "/Users/admin/tmp/quick/typenum-1.14.0-46ca18e4eafd145b796d4c0058cc009bebec2e5ca85fa0dfb790d36e4daa4801.tar"
+STARTING BUILD
+"unicode-bidi-0.3.7-9f6657e86ca53f6bbe70b1313c4342ae656b389357cf733924b90ea603c1756c"
+     Created binary (application) package
+   Compiling unicode-bidi v0.3.7
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.0Z4DYaLcmnyy/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.61s
+wrote to "/Users/admin/tmp/quick/unicode-bidi-0.3.7-9f6657e86ca53f6bbe70b1313c4342ae656b389357cf733924b90ea603c1756c.tar"
+STARTING BUILD
+"unicode-width-0.1.9-0ae65d7cf1fd7a3bfcc2bd26de9afd811c62e69c47533181d083487ac84c28af"
+     Created binary (application) package
+   Compiling unicode-width v0.1.9
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.FLWZMkqPSPvO/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.29s
+wrote to "/Users/admin/tmp/quick/unicode-width-0.1.9-0ae65d7cf1fd7a3bfcc2bd26de9afd811c62e69c47533181d083487ac84c28af.tar"
+STARTING BUILD
+"unicode-xid-0.2.2-3c66d9de2c7eca352bc369db8b156339d56c69d5ca0e1bbe08f67a771692be8f"
+     Created binary (application) package
+   Compiling unicode-xid v0.2.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.2JtI4LhHipT0/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.31s
+wrote to "/Users/admin/tmp/quick/unicode-xid-0.2.2-3c66d9de2c7eca352bc369db8b156339d56c69d5ca0e1bbe08f67a771692be8f.tar"
+STARTING BUILD
+"untrusted-0.7.1-debe39edc53ce9706f89d369cee713d6f20f1c2c3f502d6dd577262de710b62d"
+     Created binary (application) package
+   Compiling untrusted v0.7.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.mtMmnioq1et0/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.31s
+wrote to "/Users/admin/tmp/quick/untrusted-0.7.1-debe39edc53ce9706f89d369cee713d6f20f1c2c3f502d6dd577262de710b62d.tar"
+STARTING BUILD
+"version_check-0.9.3-6b852ddfecb9b7719a1462275b2e1e695aa55d6db590993147395c9946e69662"
+     Created binary (application) package
+   Compiling version_check v0.9.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.X2vkupMhcVZT/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.49s
+wrote to "/Users/admin/tmp/quick/version_check-0.9.3-6b852ddfecb9b7719a1462275b2e1e695aa55d6db590993147395c9946e69662.tar"
+STARTING BUILD
+"zeroize-1.4.3-3436257128c59b480bdc55fc49a73471ab67c27b397727c74a61f781c6ba8ff9"
+     Created binary (application) package
+   Compiling zeroize v1.4.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.CQSM2GmJBZAd/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.32s
+wrote to "/Users/admin/tmp/quick/zeroize-1.4.3-3436257128c59b480bdc55fc49a73471ab67c27b397727c74a61f781c6ba8ff9.tar"
+START OF LEVEL 1
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "atty",
+        version: "0.2.14",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "cpufeatures",
+        version: "0.2.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "encoding_rs",
+        version: "0.8.30",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "form_urlencoded",
+        version: "1.0.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "fs2",
+        version: "0.4.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-channel",
+        version: "0.3.17",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-util",
+        version: "0.3.17",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "generic-array",
+        version: "0.14.4",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "getrandom",
+        version: "0.2.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "http",
+        version: "0.2.5",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "indexmap",
+        version: "1.7.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "instant",
+        version: "0.1.12",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "itertools",
+        version: "0.10.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "jobserver",
+        version: "0.1.24",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "lock_api",
+        version: "0.4.5",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "log",
+        version: "0.4.14",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "num_cpus",
+        version: "1.13.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "os_str_bytes",
+        version: "6.0.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "proc-macro2",
+        version: "1.0.34",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "regex",
+        version: "1.5.4",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "rustls-pemfile",
+        version: "0.2.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "signal-hook-registry",
+        version: "1.4.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "socket2",
+        version: "0.4.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "terminal_size",
+        version: "0.1.17",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tinyvec",
+        version: "1.5.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tracing-core",
+        version: "0.1.22",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"atty-0.2.14-8d29140a0ff05367638fe0e37936ee53fdacb1e2c45bfe11e5ac8270d60a2b0f"
+     Created binary (application) package
+   Compiling atty v0.2.14
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.naksvVHeuJva/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/atty-0.2.14-8d29140a0ff05367638fe0e37936ee53fdacb1e2c45bfe11e5ac8270d60a2b0f.tar"
+STARTING BUILD
+"cpufeatures-0.2.1-8b2c5460658a0fbae06d2796610ba8f55e8392aef29a7be0c727ea6f56d7cdf2"
+     Created binary (application) package
+   Compiling cpufeatures v0.2.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.P3qoJlDDoiFg/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.31s
+wrote to "/Users/admin/tmp/quick/cpufeatures-0.2.1-8b2c5460658a0fbae06d2796610ba8f55e8392aef29a7be0c727ea6f56d7cdf2.tar"
+STARTING BUILD
+"encoding_rs-0.8.30-b5c299e85563150409225d62d7d1d762beb4aea72aaada25143e75482110d959"
+     Created binary (application) package
+   Compiling encoding_rs v0.8.30
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.dZ8k6fH3NglF/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.86s
+wrote to "/Users/admin/tmp/quick/encoding_rs-0.8.30-b5c299e85563150409225d62d7d1d762beb4aea72aaada25143e75482110d959.tar"
+STARTING BUILD
+"form_urlencoded-1.0.1-c08c7facb665da18d249b8258f876b152957bb6632e37a1eaac28031329a0963"
+     Created binary (application) package
+   Compiling form_urlencoded v1.0.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.dznvug7rfWnU/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.34s
+wrote to "/Users/admin/tmp/quick/form_urlencoded-1.0.1-c08c7facb665da18d249b8258f876b152957bb6632e37a1eaac28031329a0963.tar"
+STARTING BUILD
+"fs2-0.4.3-f8130687f32cfe0e675e36e2cc5783e5821cde9b43114f8add08729d10ff83d6"
+     Created binary (application) package
+   Compiling fs2 v0.4.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.7SAkESasre2d/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.34s
+wrote to "/Users/admin/tmp/quick/fs2-0.4.3-f8130687f32cfe0e675e36e2cc5783e5821cde9b43114f8add08729d10ff83d6.tar"
+STARTING BUILD
+"futures-channel-0.3.17-6e22f52b13d9833494d80bce4a30a64af6d7959cdb352be19e175ed63700ee37"
+     Created binary (application) package
+   Compiling futures-channel v0.3.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.ozLTgWPaiGer/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.49s
+wrote to "/Users/admin/tmp/quick/futures-channel-0.3.17-6e22f52b13d9833494d80bce4a30a64af6d7959cdb352be19e175ed63700ee37.tar"
+STARTING BUILD
+"futures-util-0.3.17-d544968ee1417f4c4d5166e062741b0114840d021a62b669b1970b02dbc0c426"
+     Created binary (application) package
+   Compiling futures-util v0.3.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.KGLc0FaOWXt2/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.08s
+wrote to "/Users/admin/tmp/quick/futures-util-0.3.17-d544968ee1417f4c4d5166e062741b0114840d021a62b669b1970b02dbc0c426.tar"
+STARTING BUILD
+"generic-array-0.14.4-8be942dd48ee6991e1739f57928ce97c1d5af6ab9fe51e39d7cbc52725925df1"
+     Created binary (application) package
+   Compiling generic-array v0.14.4
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.gqrdLcwceUsY/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.68s
+wrote to "/Users/admin/tmp/quick/generic-array-0.14.4-8be942dd48ee6991e1739f57928ce97c1d5af6ab9fe51e39d7cbc52725925df1.tar"
+STARTING BUILD
+"getrandom-0.2.3-fc623261d142e504a8096de00926e3c0664d88b235ec1791e9f73aa3fa2169e5"
+     Created binary (application) package
+   Compiling getrandom v0.2.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.eofNKKM8aDKX/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.37s
+wrote to "/Users/admin/tmp/quick/getrandom-0.2.3-fc623261d142e504a8096de00926e3c0664d88b235ec1791e9f73aa3fa2169e5.tar"
+STARTING BUILD
+"http-0.2.5-54acad74cba5cfba79e0730c4febaeeda7ae5f86884c7374ec64fb6dc1725fc8"
+     Created binary (application) package
+   Compiling http v0.2.5
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.mq3vDvPeNOIm/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.36s
+wrote to "/Users/admin/tmp/quick/http-0.2.5-54acad74cba5cfba79e0730c4febaeeda7ae5f86884c7374ec64fb6dc1725fc8.tar"
+STARTING BUILD
+"indexmap-1.7.0-676e427c06194053a47927578446f782a3449e972cf678bc2d88467bdf9d5582"
+     Created binary (application) package
+   Compiling indexmap v1.7.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.P8ISSqDzAVQ6/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.59s
+wrote to "/Users/admin/tmp/quick/indexmap-1.7.0-676e427c06194053a47927578446f782a3449e972cf678bc2d88467bdf9d5582.tar"
+STARTING BUILD
+"instant-0.1.12-604cb4cb185e6593588ba5e8e6a4f6ccfaa1414a89db2c6b80443571f3a5ab8e"
+     Created binary (application) package
+   Compiling instant v0.1.12
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.IYR6XMvxb3qc/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.28s
+wrote to "/Users/admin/tmp/quick/instant-0.1.12-604cb4cb185e6593588ba5e8e6a4f6ccfaa1414a89db2c6b80443571f3a5ab8e.tar"
+STARTING BUILD
+"itertools-0.10.3-e091803b2292a7a862869dc52b7aefd275aca888e37511ab6093310b525b7b21"
+     Created binary (application) package
+   Compiling itertools v0.10.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.ojoRKoMaY0To/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.00s
+wrote to "/Users/admin/tmp/quick/itertools-0.10.3-e091803b2292a7a862869dc52b7aefd275aca888e37511ab6093310b525b7b21.tar"
+STARTING BUILD
+"jobserver-0.1.24-adb174cc6408f745a678b33863442b544891140477d7cfb54a9fbd40793db216"
+     Created binary (application) package
+   Compiling jobserver v0.1.24
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.tHLewajPW3uh/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.52s
+wrote to "/Users/admin/tmp/quick/jobserver-0.1.24-adb174cc6408f745a678b33863442b544891140477d7cfb54a9fbd40793db216.tar"
+STARTING BUILD
+"lock_api-0.4.5-06e1c570794f6421dd4fcdbcf47810f1152ed883308668ea70018bc2d3383f20"
+     Created binary (application) package
+   Compiling lock_api v0.4.5
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.vE2awdNWwb7O/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.36s
+wrote to "/Users/admin/tmp/quick/lock_api-0.4.5-06e1c570794f6421dd4fcdbcf47810f1152ed883308668ea70018bc2d3383f20.tar"
+STARTING BUILD
+"log-0.4.14-514097e0ba13856335f645271ef0ea580e47a859e09daeb4a7840596c77a4b31"
+     Created binary (application) package
+   Compiling log v0.4.14
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.f670vLKpnJ4d/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.52s
+wrote to "/Users/admin/tmp/quick/log-0.4.14-514097e0ba13856335f645271ef0ea580e47a859e09daeb4a7840596c77a4b31.tar"
+STARTING BUILD
+"num_cpus-1.13.0-1c5637acf53cee0bda774849a91c31f917405c14699ff41eda051ddffcd3c65f"
+     Created binary (application) package
+   Compiling num_cpus v1.13.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Y9LWoUk4fl6E/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/num_cpus-1.13.0-1c5637acf53cee0bda774849a91c31f917405c14699ff41eda051ddffcd3c65f.tar"
+STARTING BUILD
+"os_str_bytes-6.0.0-e13e78853af9a3cc10753882d5f419f330332c955f72b4cc5426be3b7235f2c3"
+     Created binary (application) package
+   Compiling os_str_bytes v6.0.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.LPPPvCs25AJ4/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.37s
+wrote to "/Users/admin/tmp/quick/os_str_bytes-6.0.0-e13e78853af9a3cc10753882d5f419f330332c955f72b4cc5426be3b7235f2c3.tar"
+STARTING BUILD
+"proc-macro2-1.0.34-1af74d464aac7a4006d57b049d3c2a04ad025ef803d53b2c5e27dc485690c5d4"
+     Created binary (application) package
+   Compiling proc-macro2 v1.0.34
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.hCjqKvUq8n9Z/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.95s
+wrote to "/Users/admin/tmp/quick/proc-macro2-1.0.34-1af74d464aac7a4006d57b049d3c2a04ad025ef803d53b2c5e27dc485690c5d4.tar"
+STARTING BUILD
+"regex-1.5.4-38d2ce6061423644f6417388be9a9d1c3eb484c5201d0083771f57cd7bfbf5df"
+     Created binary (application) package
+   Compiling regex v1.5.4
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.gwljWRWeJep5/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.16s
+wrote to "/Users/admin/tmp/quick/regex-1.5.4-38d2ce6061423644f6417388be9a9d1c3eb484c5201d0083771f57cd7bfbf5df.tar"
+STARTING BUILD
+"rustls-pemfile-0.2.1-a552b9f5683d5a8bf477be41e7570de4b182caa1c13723c4378c242b61b9a38e"
+     Created binary (application) package
+   Compiling rustls-pemfile v0.2.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.aITP8YBzotvj/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.40s
+wrote to "/Users/admin/tmp/quick/rustls-pemfile-0.2.1-a552b9f5683d5a8bf477be41e7570de4b182caa1c13723c4378c242b61b9a38e.tar"
+STARTING BUILD
+"signal-hook-registry-1.4.0-443715c8586b1a3e61fcaf375498fd6d581dfc34e6345b97da5a22494fd353a8"
+     Created binary (application) package
+   Compiling signal-hook-registry v1.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.6yfonu4Vd6Ck/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.54s
+wrote to "/Users/admin/tmp/quick/signal-hook-registry-1.4.0-443715c8586b1a3e61fcaf375498fd6d581dfc34e6345b97da5a22494fd353a8.tar"
+STARTING BUILD
+"socket2-0.4.2-e80a0acc27dec97881e714ece0834ce41b7b7fe6b7a8b2e7a76dc930abb7432a"
+     Created binary (application) package
+   Compiling socket2 v0.4.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.CeS1neCqBA6p/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.50s
+wrote to "/Users/admin/tmp/quick/socket2-0.4.2-e80a0acc27dec97881e714ece0834ce41b7b7fe6b7a8b2e7a76dc930abb7432a.tar"
+STARTING BUILD
+"terminal_size-0.1.17-595f1563a232455b08816b549e212751eada90b7f5d943ebfc9ed74a8b66a978"
+     Created binary (application) package
+   Compiling terminal_size v0.1.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.PqLrE7hBOmNM/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.29s
+wrote to "/Users/admin/tmp/quick/terminal_size-0.1.17-595f1563a232455b08816b549e212751eada90b7f5d943ebfc9ed74a8b66a978.tar"
+STARTING BUILD
+"tinyvec-1.5.1-7d7d7031b2cdf30ae0bd038777a3ce4c4aaa5eb06180a7044d3026906f5a5f36"
+     Created binary (application) package
+   Compiling tinyvec v1.5.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.9FNTA74kmFrn/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.75s
+wrote to "/Users/admin/tmp/quick/tinyvec-1.5.1-7d7d7031b2cdf30ae0bd038777a3ce4c4aaa5eb06180a7044d3026906f5a5f36.tar"
+STARTING BUILD
+"tracing-core-0.1.22-9d4acd9f538c597ddc79b3085f947d2ae16f306a7b11deed7dacff954b8e8f6b"
+     Created binary (application) package
+   Compiling tracing-core v0.1.22
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.gVpd2Z9H5Zb6/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.57s
+wrote to "/Users/admin/tmp/quick/tracing-core-0.1.22-9d4acd9f538c597ddc79b3085f947d2ae16f306a7b11deed7dacff954b8e8f6b.tar"
+START OF LEVEL 2
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "block-buffer",
+        version: "0.9.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "cc",
+        version: "1.0.72",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "console",
+        version: "0.14.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "console",
+        version: "0.15.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "digest",
+        version: "0.9.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "http-body",
+        version: "0.4.4",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "mio",
+        version: "0.7.14",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "parking_lot_core",
+        version: "0.8.5",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "quote",
+        version: "1.0.10",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "rand_core",
+        version: "0.6.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-normalization",
+        version: "0.1.19",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "want",
+        version: "0.3.0",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"block-buffer-0.9.0-608658babe35d4f73d047d9cf6879f8ae17a0a0710004c8032b01e6b8b747424"
+     Created binary (application) package
+   Compiling block-buffer v0.9.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Chjm1Hbnv4ek/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/block-buffer-0.9.0-608658babe35d4f73d047d9cf6879f8ae17a0a0710004c8032b01e6b8b747424.tar"
+STARTING BUILD
+"cc-1.0.72-43812e480bdcff11d146bd8a4bedd827bb774651bba49b98f3c0b45c0602ce0a"
+     Created binary (application) package
+   Compiling cc v1.0.72
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.KlARRPherbIX/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.02s
+wrote to "/Users/admin/tmp/quick/cc-1.0.72-43812e480bdcff11d146bd8a4bedd827bb774651bba49b98f3c0b45c0602ce0a.tar"
+STARTING BUILD
+"console-0.14.1-24b36a0b55d800b01dd6aab70f83983c98c7d1ac7778592aca032581eca6b17d"
+     Created binary (application) package
+   Compiling console v0.14.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.EXlJvlpoUcQk/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.68s
+wrote to "/Users/admin/tmp/quick/console-0.14.1-24b36a0b55d800b01dd6aab70f83983c98c7d1ac7778592aca032581eca6b17d.tar"
+STARTING BUILD
+"console-0.15.0-e640d0b482268e3179cbf502eec0ddd0700237943c6773bb394c5b86b8839d76"
+     Created binary (application) package
+   Compiling console v0.15.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.lfDvN90s2h0B/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.71s
+wrote to "/Users/admin/tmp/quick/console-0.15.0-e640d0b482268e3179cbf502eec0ddd0700237943c6773bb394c5b86b8839d76.tar"
+STARTING BUILD
+"digest-0.9.0-bcb53de8da23ceabede4b050904807ad9b4234abceb5d17c40befe749c313ace"
+     Created binary (application) package
+   Compiling digest v0.9.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.OW3uapLxLum7/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/digest-0.9.0-bcb53de8da23ceabede4b050904807ad9b4234abceb5d17c40befe749c313ace.tar"
+STARTING BUILD
+"http-body-0.4.4-b8f95bd7b83b589493b4fd7d3f3ff73d86c554025b38a04c9582bc220d68b69e"
+     Created binary (application) package
+   Compiling http-body v0.4.4
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.xISJclTE6FE2/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.34s
+wrote to "/Users/admin/tmp/quick/http-body-0.4.4-b8f95bd7b83b589493b4fd7d3f3ff73d86c554025b38a04c9582bc220d68b69e.tar"
+STARTING BUILD
+"mio-0.7.14-4bb22fc30dc91305a39bfcb8e4928644614e1e639925d78e94cef17545002e4b"
+     Created binary (application) package
+   Compiling mio v0.7.14
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.oUyKnv3dNhLC/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.73s
+wrote to "/Users/admin/tmp/quick/mio-0.7.14-4bb22fc30dc91305a39bfcb8e4928644614e1e639925d78e94cef17545002e4b.tar"
+STARTING BUILD
+"parking_lot_core-0.8.5-894170e4f560487415402ea116cf7e8c7e37ad50da610fd6ec47dd9a22002973"
+     Created binary (application) package
+   Compiling parking_lot_core v0.8.5
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Nh70zvQ4vJgJ/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.59s
+wrote to "/Users/admin/tmp/quick/parking_lot_core-0.8.5-894170e4f560487415402ea116cf7e8c7e37ad50da610fd6ec47dd9a22002973.tar"
+STARTING BUILD
+"quote-1.0.10-5c99c8c848355608a5d68ef95d61fc69e8df38998b2ed85963922f4d5f0692f3"
+     Created binary (application) package
+   Compiling quote v1.0.10
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Z9SCC4zgKCGd/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.43s
+wrote to "/Users/admin/tmp/quick/quote-1.0.10-5c99c8c848355608a5d68ef95d61fc69e8df38998b2ed85963922f4d5f0692f3.tar"
+STARTING BUILD
+"rand_core-0.6.3-86844fe26d3abe76410aa37d6646b4e4071f788794be881a71a1c52416774b1d"
+     Created binary (application) package
+   Compiling rand_core v0.6.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.BV36FkHAcnth/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.37s
+wrote to "/Users/admin/tmp/quick/rand_core-0.6.3-86844fe26d3abe76410aa37d6646b4e4071f788794be881a71a1c52416774b1d.tar"
+STARTING BUILD
+"unicode-normalization-0.1.19-1f4bd8d76da0d49c20bcc2b001644ca96e9ae4febbb705b5a3f67c87b730af85"
+     Created binary (application) package
+   Compiling unicode-normalization v0.1.19
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.lEvfrIMydXeD/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.70s
+wrote to "/Users/admin/tmp/quick/unicode-normalization-0.1.19-1f4bd8d76da0d49c20bcc2b001644ca96e9ae4febbb705b5a3f67c87b730af85.tar"
+STARTING BUILD
+"want-0.3.0-351d954be78b1baa4813d6add782e3de96d5ad47a590cf39798facfcbdf2a317"
+     Created binary (application) package
+   Compiling want v0.3.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.wdXfoInK5oQg/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.34s
+wrote to "/Users/admin/tmp/quick/want-0.3.0-351d954be78b1baa4813d6add782e3de96d5ad47a590cf39798facfcbdf2a317.tar"
+START OF LEVEL 3
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "idna",
+        version: "0.2.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "indicatif",
+        version: "0.16.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "parking_lot",
+        version: "0.11.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "proc-macro-error-attr",
+        version: "1.0.4",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "rand_chacha",
+        version: "0.3.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "ring",
+        version: "0.16.20",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "sha2",
+        version: "0.9.9",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "syn",
+        version: "1.0.82",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"idna-0.2.3-b0e9bfe73ec47a8755bab3e3832e8d6bea4d1e1dee78e3dcf3ee2e1917b06a35"
+     Created binary (application) package
+   Compiling idna v0.2.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.K4wxzf8IklzQ/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.72s
+wrote to "/Users/admin/tmp/quick/idna-0.2.3-b0e9bfe73ec47a8755bab3e3832e8d6bea4d1e1dee78e3dcf3ee2e1917b06a35.tar"
+STARTING BUILD
+"indicatif-0.16.2-d04af507167210c9f8c07079afa23a275d4c3970ed757b5b66c084921a620b9b"
+     Created binary (application) package
+   Compiling indicatif v0.16.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.trcvHO8Qx1rG/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.83s
+wrote to "/Users/admin/tmp/quick/indicatif-0.16.2-d04af507167210c9f8c07079afa23a275d4c3970ed757b5b66c084921a620b9b.tar"
+STARTING BUILD
+"parking_lot-0.11.2-f96801daf9f84400d20fbcd88ba0a79fd0485ee93e93f8bcc47768a8126be055"
+     Created binary (application) package
+   Compiling parking_lot v0.11.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.jYu4eLob6hsF/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.52s
+wrote to "/Users/admin/tmp/quick/parking_lot-0.11.2-f96801daf9f84400d20fbcd88ba0a79fd0485ee93e93f8bcc47768a8126be055.tar"
+STARTING BUILD
+"proc-macro-error-attr-1.0.4-1494fbb7168dc19a06318b8e83f9a6bc319f1b67240869db0f66ca4506f470c9"
+     Created binary (application) package
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.VHLe4bwJJeOD/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.69s
+wrote to "/Users/admin/tmp/quick/proc-macro-error-attr-1.0.4-1494fbb7168dc19a06318b8e83f9a6bc319f1b67240869db0f66ca4506f470c9.tar"
+STARTING BUILD
+"rand_chacha-0.3.1-5b715e27bb54e28f4193820489728e840ec20a01e682946a990e8f760fb725b9"
+     Created binary (application) package
+   Compiling rand_chacha v0.3.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.d8vRM4c7XUn0/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.57s
+wrote to "/Users/admin/tmp/quick/rand_chacha-0.3.1-5b715e27bb54e28f4193820489728e840ec20a01e682946a990e8f760fb725b9.tar"
+STARTING BUILD
+"ring-0.16.20-fe8bc68cdcb6945dccad8a4f635e8eaca0410bad22dd6b2ce01a46fd04646d3e"
+     Created binary (application) package
+   Compiling ring v0.16.20
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.B9Sh7vIyo00e/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.37s
+wrote to "/Users/admin/tmp/quick/ring-0.16.20-fe8bc68cdcb6945dccad8a4f635e8eaca0410bad22dd6b2ce01a46fd04646d3e.tar"
+STARTING BUILD
+"sha2-0.9.9-a9458b4fd12ac78bad2a844e36207670047c3296f52f07d023f315d9d483eb51"
+     Created binary (application) package
+   Compiling sha2 v0.9.9
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.kekPt1oxyG9o/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.45s
+wrote to "/Users/admin/tmp/quick/sha2-0.9.9-a9458b4fd12ac78bad2a844e36207670047c3296f52f07d023f315d9d483eb51.tar"
+STARTING BUILD
+"syn-1.0.82-7ebe7e1aa6308507529226960689da9766842dfdefd82c1005aa7d75fe48d3d8"
+     Created binary (application) package
+   Compiling syn v1.0.82
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.k1AQZ9mbHqPk/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 4.46s
+wrote to "/Users/admin/tmp/quick/syn-1.0.82-7ebe7e1aa6308507529226960689da9766842dfdefd82c1005aa7d75fe48d3d8.tar"
+START OF LEVEL 4
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "proc-macro-error",
+        version: "1.0.4",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "rand",
+        version: "0.8.4",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "sct",
+        version: "0.7.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "serde_derive",
+        version: "1.0.132",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "thiserror-impl",
+        version: "1.0.30",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tokio-macros",
+        version: "1.7.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tracing-attributes",
+        version: "0.1.19",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "url",
+        version: "2.2.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "webpki",
+        version: "0.21.4",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "webpki",
+        version: "0.22.0",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"proc-macro-error-1.0.4-ef863b22ed7d91962df08641b44779d1f8d8358c031009c124535abf45bb440c"
+     Created binary (application) package
+   Compiling proc-macro-error v1.0.4
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.O3turAuZFmTe/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.68s
+wrote to "/Users/admin/tmp/quick/proc-macro-error-1.0.4-ef863b22ed7d91962df08641b44779d1f8d8358c031009c124535abf45bb440c.tar"
+STARTING BUILD
+"rand-0.8.4-78a2aae0c00782b57a7316d9ddbe321e1ec3f6f994603c5b9020c805e4141b75"
+     Created binary (application) package
+   Compiling rand v0.8.4
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Ziwod57BSojc/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.78s
+wrote to "/Users/admin/tmp/quick/rand-0.8.4-78a2aae0c00782b57a7316d9ddbe321e1ec3f6f994603c5b9020c805e4141b75.tar"
+STARTING BUILD
+"sct-0.7.0-8e2eb519e5d30d7616bb3186a4c75a65843970aedf3172dd9bc2e64c8e0abb2b"
+     Created binary (application) package
+   Compiling cc v1.0.72
+   Compiling ring v0.16.20
+   Compiling sct v0.7.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.FJXK8qWNOuF1/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 3.27s
+wrote to "/Users/admin/tmp/quick/sct-0.7.0-8e2eb519e5d30d7616bb3186a4c75a65843970aedf3172dd9bc2e64c8e0abb2b.tar"
+STARTING BUILD
+"serde_derive-1.0.132-8120f5ed8e674d06a9b5c2ba7cc216ce6f5e7fdc981715bdc719597dd72e3cc3"
+     Created binary (application) package
+   Compiling syn v1.0.82
+   Compiling serde_derive v1.0.132
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.Y7tGCe7AE9sn/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 5.13s
+wrote to "/Users/admin/tmp/quick/serde_derive-1.0.132-8120f5ed8e674d06a9b5c2ba7cc216ce6f5e7fdc981715bdc719597dd72e3cc3.tar"
+STARTING BUILD
+"thiserror-impl-1.0.30-dfd4b0af2e77ac746940fb28f41d4f8599167c3762f459496be8834fd52a3b60"
+     Created binary (application) package
+   Compiling syn v1.0.82
+   Compiling thiserror-impl v1.0.30
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.XkiY7bQg3Dg5/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 3.47s
+wrote to "/Users/admin/tmp/quick/thiserror-impl-1.0.30-dfd4b0af2e77ac746940fb28f41d4f8599167c3762f459496be8834fd52a3b60.tar"
+STARTING BUILD
+"tokio-macros-1.7.0-459209e1af5ba12422d7b7a2e90885344456ade6befa46e2e1391a3a9ec026d5"
+     Created binary (application) package
+   Compiling syn v1.0.82
+   Compiling tokio-macros v1.7.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.XXcOyW0XRMxH/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 4.20s
+wrote to "/Users/admin/tmp/quick/tokio-macros-1.7.0-459209e1af5ba12422d7b7a2e90885344456ade6befa46e2e1391a3a9ec026d5.tar"
+STARTING BUILD
+"tracing-attributes-0.1.19-e4c04bf5d047de9defee54aba93f458f059c6474bd98489ed80c52adc88a99e5"
+     Created binary (application) package
+   Compiling syn v1.0.82
+   Compiling tracing-attributes v0.1.19
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.HTkXgXtP7rnL/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 5.75s
+wrote to "/Users/admin/tmp/quick/tracing-attributes-0.1.19-e4c04bf5d047de9defee54aba93f458f059c6474bd98489ed80c52adc88a99e5.tar"
+STARTING BUILD
+"url-2.2.2-070eac4468ba5dd9a8e03b76fa2a3f7fc4091b0ea369cbfccf0ef5fe41db5e47"
+     Created binary (application) package
+   Compiling url v2.2.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.vfiCkS3dpO59/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.76s
+wrote to "/Users/admin/tmp/quick/url-2.2.2-070eac4468ba5dd9a8e03b76fa2a3f7fc4091b0ea369cbfccf0ef5fe41db5e47.tar"
+STARTING BUILD
+"webpki-0.21.4-72ec5e0c0235ba59d2c6b88ef25fbe431393aba7a957ced9ff2e93d4b5f2c4f0"
+     Created binary (application) package
+   Compiling cc v1.0.72
+   Compiling ring v0.16.20
+   Compiling webpki v0.21.4
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.g8B4KR9oisgl/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 3.44s
+wrote to "/Users/admin/tmp/quick/webpki-0.21.4-72ec5e0c0235ba59d2c6b88ef25fbe431393aba7a957ced9ff2e93d4b5f2c4f0.tar"
+STARTING BUILD
+"webpki-0.22.0-298ba459bdfc18dca502729830fb146b35eaee7a7cc497dc72570ee80ddf5ac3"
+     Created binary (application) package
+   Compiling cc v1.0.72
+   Compiling ring v0.16.20
+   Compiling webpki v0.22.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.faqpiZWDhWXv/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 3.39s
+wrote to "/Users/admin/tmp/quick/webpki-0.22.0-298ba459bdfc18dca502729830fb146b35eaee7a7cc497dc72570ee80ddf5ac3.tar"
+START OF LEVEL 5
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "clap_derive",
+        version: "3.0.6",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "rustls",
+        version: "0.20.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "serde",
+        version: "1.0.132",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tempfile",
+        version: "3.2.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "thiserror",
+        version: "1.0.30",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tokio",
+        version: "1.15.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "tracing",
+        version: "0.1.30",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "webpki-roots",
+        version: "0.21.1",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"clap_derive-3.0.6-450e5b88236df0022b4a55dc16f62a255390c17a65114b45ef7ebec0be660ac8"
+     Created binary (application) package
+   Compiling syn v1.0.82
+   Compiling proc-macro-error v1.0.4
+   Compiling clap_derive v3.0.6
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.UPoK5gASAvC9/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 4.98s
+wrote to "/Users/admin/tmp/quick/clap_derive-3.0.6-450e5b88236df0022b4a55dc16f62a255390c17a65114b45ef7ebec0be660ac8.tar"
+STARTING BUILD
+"rustls-0.20.2-39a869c5a0a3b56ab37c6094a62e8039fc973ee133618098cf529113775edea0"
+     Created binary (application) package
+   Compiling sct v0.7.0
+   Compiling rustls v0.20.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.LrygCvfrLHJt/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.81s
+"target/debug/.fingerprint/sct-1ebe79b78ee738aa/lib-sct"'s mtime has changed from FileTime { seconds: 1660692397, nanos: 100634154 } to FileTime { seconds: 1660692432, nanos: 632075992 } and it is not a dir. contents:
+"326588dd0290ad5a"
+"target/debug/.fingerprint/sct-1ebe79b78ee738aa/lib-sct.json"'s mtime has changed from FileTime { seconds: 1660692397, nanos: 100707028 } to FileTime { seconds: 1660692432, nanos: 632158574 } and it is not a dir. contents:
+"{\"rustc\":4276420980407004710,\"features\":\"[]\",\"target\":14871531459669675202,\"profile\":8344124108420085910,\"path\":11119845702924320111,\"deps\":[[4439724684199411703,\"ring\",false,9326740563532568024],[16608859830347377199,\"untrusted\",false,8968388238384894915]],\"local\":[{\"CheckDepInfo\":{\"dep_info\":\"debug/.fingerprint/sct-1ebe79b78ee738aa/dep-lib-sct\"}}],\"rustflags\":[],\"metadata\":9083228746620656109,\"config\":2202906307356721367,\"compile_kind\":0}"
+"target/debug/.fingerprint/sct-1ebe79b78ee738aa/dep-lib-sct"'s mtime has changed from FileTime { seconds: 1660692396, nanos: 994072489 } to FileTime { seconds: 1660692432, nanos: 530137968 } and it is not a dir. contents:
+"\0\0\0\0\0\0\0\0"
+"target/debug/.fingerprint/sct-1ebe79b78ee738aa/invoked.timestamp"'s mtime has changed from FileTime { seconds: 1660692396, nanos: 994072489 } to FileTime { seconds: 1660692432, nanos: 530137968 } and it is not a dir. contents:
+"This file has an mtime of when this was started."
+"target/debug/deps/libsct-1ebe79b78ee738aa.rlib"'s mtime has changed from FileTime { seconds: 1660692397, nanos: 98432728 } to FileTime { seconds: 1660692432, nanos: 629815233 } and it is not a dir. (binary file)
+"target/debug/deps/libsct-1ebe79b78ee738aa.rmeta"'s mtime has changed from FileTime { seconds: 1660692397, nanos: 53274882 } to FileTime { seconds: 1660692432, nanos: 586723649 } and it is not a dir. (binary file)
+"target/debug/deps/sct-1ebe79b78ee738aa.d"'s mtime has changed from FileTime { seconds: 1660692397, nanos: 30966705 } to FileTime { seconds: 1660692432, nanos: 565563664 } and it is not a dir. contents:
+"/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.LrygCvfrLHJt/cargo-quickbuild-scratchpad/target/debug/deps/sct-1ebe79b78ee738aa.rmeta: /Users/admin/.cargo/registry/src/github.com-1ecc6299db9ec823/sct-0.7.0/src/lib.rs\n\n/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.LrygCvfrLHJt/cargo-quickbuild-scratchpad/target/debug/deps/libsct-1ebe79b78ee738aa.rlib: /Users/admin/.cargo/registry/src/github.com-1ecc6299db9ec823/sct-0.7.0/src/lib.rs\n\n/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.LrygCvfrLHJt/cargo-quickbuild-scratchpad/target/debug/deps/sct-1ebe79b78ee738aa.d: /Users/admin/.cargo/registry/src/github.com-1ecc6299db9ec823/sct-0.7.0/src/lib.rs\n\n/Users/admin/.cargo/registry/src/github.com-1ecc6299db9ec823/sct-0.7.0/src/lib.rs:\n"
+thread 'main' panicked at 'Got a timestamp problem. See above logging for details.', cargo-quickbuild/src/archive.rs:63:9
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

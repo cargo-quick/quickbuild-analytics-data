@@ -1,0 +1,311 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded synstructure v0.12.3
+  Downloaded signal-hook-registry v1.2.1
+  Downloaded matches v0.1.8
+  Downloaded autocfg v0.1.7
+  Downloaded unicode-bidi v0.3.4
+  Downloaded cfg-if v0.1.9
+  Downloaded backtrace v0.3.40
+  Downloaded futures-executor v0.3.1
+  Downloaded futures v0.3.1
+  Downloaded futures-io v0.3.1
+  Downloaded c2-chacha v0.2.3
+  Downloaded fnv v1.0.6
+  Downloaded chrono v0.4.9
+  Downloaded socket2 v0.3.11
+  Downloaded futures-sink v0.3.1
+  Downloaded futures-util v0.3.1
+  Downloaded signal-hook v0.1.16
+  Downloaded num-traits v0.2.8
+  Downloaded getrandom v0.1.13
+  Downloaded futures-task v0.3.1
+  Downloaded memchr v2.2.1
+  Downloaded log v0.4.8
+  Downloaded heck v0.3.1
+  Downloaded futures-macro v0.3.1
+  Downloaded mio v0.6.21
+  Downloaded proc-macro-nested v0.1.3
+  Downloaded futures-channel v0.3.1
+  Downloaded net2 v0.2.33
+  Downloaded num-integer v0.1.41
+  Downloaded rand_chacha v0.2.1
+  Downloaded slab v0.4.2
+  Downloaded futures-core v0.3.1
+  Downloaded mio v0.7.0
+  Downloaded unicode-width v0.1.8
+  Downloaded ppv-lite86 v0.2.6
+  Downloaded idna v0.2.0
+  Downloaded quick-error v1.2.2
+  Downloaded failure_derive v0.1.6
+  Downloaded regex v1.3.1
+  Downloaded quote v1.0.2
+  Downloaded linked-hash-map v0.5.2
+  Downloaded rustc-demangle v0.1.16
+  Downloaded thread_local v0.3.6
+  Downloaded smallvec v0.6.13
+  Downloaded scopeguard v1.0.0
+  Downloaded rand v0.7.2
+  Downloaded unicode-xid v0.2.0
+  Downloaded syn v1.0.11
+  Downloaded unicode-normalization v0.1.9
+  Downloaded time v0.1.42
+  Downloaded atty v0.2.13
+  Downloaded failure v0.1.6
+  Downloaded vec_map v0.8.1
+  Downloaded aho-corasick v0.7.6
+  Downloaded proc-macro2 v1.0.6
+  Downloaded unicode-segmentation v1.6.0
+  Downloaded pin-utils v0.1.0-alpha.4
+  Downloaded clap v2.33.0
+  Downloaded tokio v0.2.2
+  Downloaded regex-syntax v0.6.12
+  Downloaded serde v1.0.102
+  Downloaded proc-macro-hack v0.5.11
+  Downloaded structopt-derive v0.3.4
+  Downloaded enum-as-inner v0.3.0
+  Downloaded proc-macro-error v0.2.6
+  Downloaded pin-project-lite v0.1.1
+  Downloaded async-trait v0.1.21
+  Downloaded cc v1.0.47
+  Downloaded bytes v0.5.0
+  Downloaded arc-swap v0.4.3
+  Downloaded structopt v0.3.4
+  Downloaded smallvec v1.0.0
+  Downloaded libc v0.2.76
+  Downloaded backtrace-sys v0.1.32
+  Downloaded url v2.1.0
+START OF LEVEL 0
+[cargo-quickbuild/src/scheduler.rs:34] &current_level = {
+    PackageId {
+        name: "ansi_term",
+        version: "0.11.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "arc-swap",
+        version: "0.4.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "autocfg",
+        version: "0.1.7",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "bitflags",
+        version: "0.5.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "bitflags",
+        version: "1.2.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "bytes",
+        version: "0.5.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "cassowary",
+        version: "0.3.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "cc",
+        version: "1.0.47",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "cfg-if",
+        version: "0.1.9",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "fnv",
+        version: "1.0.6",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-core",
+        version: "0.3.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-io",
+        version: "0.3.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-sink",
+        version: "0.3.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "futures-task",
+        version: "0.3.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "glob",
+        version: "0.2.11",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "lazy_static",
+        version: "1.4.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "libc",
+        version: "0.2.76",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "linked-hash-map",
+        version: "0.5.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "match_cfg",
+        version: "0.1.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "matches",
+        version: "0.1.8",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "maybe-uninit",
+        version: "2.0.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "memchr",
+        version: "2.2.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "percent-encoding",
+        version: "2.1.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "pin-project-lite",
+        version: "0.1.1",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "pin-utils",
+        version: "0.1.0-alpha.4",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "pnet_base",
+        version: "0.26.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "ppv-lite86",
+        version: "0.2.6",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "proc-macro-nested",
+        version: "0.1.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "quick-error",
+        version: "1.2.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "regex-syntax",
+        version: "0.6.12",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "rustc-demangle",
+        version: "0.1.16",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "rustc-serialize",
+        version: "0.3.24",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "scopeguard",
+        version: "1.0.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "serde",
+        version: "1.0.102",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "slab",
+        version: "0.4.2",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "smallvec",
+        version: "1.0.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "strsim",
+        version: "0.8.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "term",
+        version: "0.4.6",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-segmentation",
+        version: "1.6.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-width",
+        version: "0.1.8",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-xid",
+        version: "0.0.3",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "unicode-xid",
+        version: "0.2.0",
+        source: "registry `crates-io`",
+    },
+    PackageId {
+        name: "vec_map",
+        version: "0.8.1",
+        source: "registry `crates-io`",
+    },
+}
+STARTING BUILD
+"ansi_term-0.11.0-0cd1967a508a72cfa0e7ef02c2ef06bd641950988bb5a3f0da73d5b943de2864"
+     Created binary (application) package
+   Compiling ansi_term v0.11.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.ur6aTHKyFJNu/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.38s
+wrote to "/Users/admin/tmp/quick/ansi_term-0.11.0-0cd1967a508a72cfa0e7ef02c2ef06bd641950988bb5a3f0da73d5b943de2864.tar"
+STARTING BUILD
+"arc-swap-0.4.3-ccdbf558fdd3b35738bbeecd9b203f6c4b2039904310933ba3e53c7fdc5ba4cc"
+     Created binary (application) package
+error: failed to select a version for the requirement `arc-swap = "=0.4.3"`
+candidate versions found which didn't match: 1.5.1, 1.5.0
+location searched: crates.io index
+required by package `cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad.FiNN1UhhhvvE/cargo-quickbuild-scratchpad)`
+As a reminder, you're using offline mode (--offline) which can sometimes cause surprising resolution failures, if this error is too confusing you may wish to retry without the offline flag.
+Error: command failed
