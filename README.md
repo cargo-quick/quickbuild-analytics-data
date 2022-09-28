@@ -27,6 +27,7 @@ If you want to use pandas + plotly to analyse the data, you can use the jupyter 
 
 ### To get started:
 
+- Install postgresql (needed for `psycopg2` installation) - `brew install postgresql@14`.
 - Install `poetry` using [the instructions on their website](https://python-poetry.org/docs/#installation).
 - Run `poetry install` to fetch some dependencies (jupyter, pandas and plotly).
 - Run `poetry run which python`, and copy the result.
