@@ -1,0 +1,1558 @@
+ Downloading crates ...
+  Downloaded just v1.8.0
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded snafu-derive v0.7.3
+  Downloaded uuid v1.2.2
+  Downloaded digest v0.10.6
+  Downloaded similar v2.2.1
+  Downloaded snafu v0.7.3
+START OF LEVEL 0
+[cargo-quickbuild/src/scheduler.rs:40] &current_level = {
+    (
+        PackageId {
+            name: "ansi_term",
+            version: "0.12.1",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "bitflags",
+            version: "1.3.2",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "camino",
+            version: "1.1.1",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "cfg-if",
+            version: "1.0.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "doc-comment",
+            version: "0.3.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "dotenv",
+            version: "0.15.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "edit-distance",
+            version: "2.1.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "fastrand",
+            version: "1.8.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "heck",
+            version: "0.4.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "heck",
+            version: "0.4.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+    (
+        PackageId {
+            name: "humantime",
+            version: "2.1.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "itoa",
+            version: "1.0.4",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "lazy_static",
+            version: "1.4.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "lexiclean",
+            version: "0.0.1",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "libc",
+            version: "0.2.137",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "memchr",
+            version: "2.5.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "regex-automata",
+            version: "0.1.10",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "regex-syntax",
+            version: "0.6.28",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "remove_dir_all",
+            version: "0.5.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "rustversion",
+            version: "1.0.9",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+    (
+        PackageId {
+            name: "ryu",
+            version: "1.0.11",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "strsim",
+            version: "0.8.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "target",
+            version: "2.0.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "termcolor",
+            version: "1.1.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "typed-arena",
+            version: "2.0.1",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "typenum",
+            version: "1.15.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "unicode-ident",
+            version: "1.0.5",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+    (
+        PackageId {
+            name: "unicode-segmentation",
+            version: "1.10.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "unicode-width",
+            version: "0.1.10",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "vec_map",
+            version: "0.8.2",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "version_check",
+            version: "0.9.4",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+}
+STARTING BUILD
+"ansi_term-0.12.1-target-7a0d99e472244a2e347918dea94bb17f912247f99cdbefa08127e7e0c2f4619d"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling ansi_term v0.12.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.50s
+wrote to "/Users/admin/tmp/quick/ansi_term-0.12.1-target-7a0d99e472244a2e347918dea94bb17f912247f99cdbefa08127e7e0c2f4619d.tar"
+STARTING BUILD
+"bitflags-1.3.2-target-4d50df0fe42d466ee36d114f8f74505fbef2a02133029fd72da104fbad79d9f2"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling bitflags v1.3.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.35s
+wrote to "/Users/admin/tmp/quick/bitflags-1.3.2-target-4d50df0fe42d466ee36d114f8f74505fbef2a02133029fd72da104fbad79d9f2.tar"
+STARTING BUILD
+"camino-1.1.1-target-55a2505b9b8d6e55035c6e36c63c3bc951e62f39b29a35b28db8b07a7de328b3"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling camino v1.1.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.86s
+wrote to "/Users/admin/tmp/quick/camino-1.1.1-target-55a2505b9b8d6e55035c6e36c63c3bc951e62f39b29a35b28db8b07a7de328b3.tar"
+STARTING BUILD
+"cfg-if-1.0.0-target-a60da104ed6b60b35dfd2d34642c07dc2e57a018ac1801f54564564b37b87917"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cfg-if v1.0.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.34s
+wrote to "/Users/admin/tmp/quick/cfg-if-1.0.0-target-a60da104ed6b60b35dfd2d34642c07dc2e57a018ac1801f54564564b37b87917.tar"
+STARTING BUILD
+"doc-comment-0.3.3-target-168924cfcbc813c98e975cd9bb9bf79522fa4b7264610056952da40ebbdb0fa3"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling doc-comment v0.3.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.60s
+wrote to "/Users/admin/tmp/quick/doc-comment-0.3.3-target-168924cfcbc813c98e975cd9bb9bf79522fa4b7264610056952da40ebbdb0fa3.tar"
+STARTING BUILD
+"dotenv-0.15.0-target-1a642094cb2ab5b1c0f5dee758b9cd88ac6785f703012ea0637b18cfe885c014"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling dotenv v0.15.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.59s
+wrote to "/Users/admin/tmp/quick/dotenv-0.15.0-target-1a642094cb2ab5b1c0f5dee758b9cd88ac6785f703012ea0637b18cfe885c014.tar"
+STARTING BUILD
+"edit-distance-2.1.0-target-d973f47bdb8f7a069f50e4b04d84f32e735c256dede5e5c67d47a078a54a4788"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling edit-distance v2.1.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.41s
+wrote to "/Users/admin/tmp/quick/edit-distance-2.1.0-target-d973f47bdb8f7a069f50e4b04d84f32e735c256dede5e5c67d47a078a54a4788.tar"
+STARTING BUILD
+"fastrand-1.8.0-target-a13087cc03b16d5e4f89ee51efc4fc42620e7a2a03f7d093204871644039bdd6"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling fastrand v1.8.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.46s
+wrote to "/Users/admin/tmp/quick/fastrand-1.8.0-target-a13087cc03b16d5e4f89ee51efc4fc42620e7a2a03f7d093204871644039bdd6.tar"
+STARTING BUILD
+"heck-0.4.0-target-c627f5b46bdb51b61deb82edc819fc7aa26c30f38735c2e3516b3f449f165d45"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling heck v0.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.46s
+wrote to "/Users/admin/tmp/quick/heck-0.4.0-target-c627f5b46bdb51b61deb82edc819fc7aa26c30f38735c2e3516b3f449f165d45.tar"
+STARTING BUILD
+"heck-0.4.0-host-3ad5d4405270e07a7625bc1d3b1f6f14e55dfe65159bcf2f3d301325f70c43f8"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/heck-0.4.0-host-3ad5d4405270e07a7625bc1d3b1f6f14e55dfe65159bcf2f3d301325f70c43f8.tar"
+STARTING BUILD
+"humantime-2.1.0-target-8a6f692c7232ff917e493b9e3511a105b6822588d5add28a9e77b01371a2daea"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling humantime v2.1.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.50s
+wrote to "/Users/admin/tmp/quick/humantime-2.1.0-target-8a6f692c7232ff917e493b9e3511a105b6822588d5add28a9e77b01371a2daea.tar"
+STARTING BUILD
+"itoa-1.0.4-target-3fae787a0d8739d0ee3ff09e088538d143d4c7c683268f6cb268f3ef85f743d4"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling itoa v1.0.4
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.38s
+wrote to "/Users/admin/tmp/quick/itoa-1.0.4-target-3fae787a0d8739d0ee3ff09e088538d143d4c7c683268f6cb268f3ef85f743d4.tar"
+STARTING BUILD
+"lazy_static-1.4.0-target-c6936eb061825422d4bbb722294b2e05d518a783ab0e4502a5e59597e4485aea"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling lazy_static v1.4.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.35s
+wrote to "/Users/admin/tmp/quick/lazy_static-1.4.0-target-c6936eb061825422d4bbb722294b2e05d518a783ab0e4502a5e59597e4485aea.tar"
+STARTING BUILD
+"lexiclean-0.0.1-target-ea963ec46ea61266271d12ba69575f55c5816dba687c4144ba0798b457e39634"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling lexiclean v0.0.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.42s
+wrote to "/Users/admin/tmp/quick/lexiclean-0.0.1-target-ea963ec46ea61266271d12ba69575f55c5816dba687c4144ba0798b457e39634.tar"
+STARTING BUILD
+"libc-0.2.137-target-5002c2b8292378bd7a3debb834e7a3ce4a04406bcd66a4a433a3ef6caeb046cb"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling libc v0.2.137
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.25s
+wrote to "/Users/admin/tmp/quick/libc-0.2.137-target-5002c2b8292378bd7a3debb834e7a3ce4a04406bcd66a4a433a3ef6caeb046cb.tar"
+STARTING BUILD
+"memchr-2.5.0-target-430ba27906f43251ca89b052622105e4d5c5c2120f160dd16368e0a13ecc7f40"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling memchr v2.5.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.75s
+wrote to "/Users/admin/tmp/quick/memchr-2.5.0-target-430ba27906f43251ca89b052622105e4d5c5c2120f160dd16368e0a13ecc7f40.tar"
+STARTING BUILD
+"regex-automata-0.1.10-target-2581add7c6145ee056581e0a44b1cbf33fddd509654bdd74a5864c7e4c257bb8"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling regex-automata v0.1.10
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.48s
+wrote to "/Users/admin/tmp/quick/regex-automata-0.1.10-target-2581add7c6145ee056581e0a44b1cbf33fddd509654bdd74a5864c7e4c257bb8.tar"
+STARTING BUILD
+"regex-syntax-0.6.28-target-27bf9f8b1baf0cd5ff8e3e374ff3458b5570241906284dbf80140555fdd60a27"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling regex-syntax v0.6.28
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.19s
+wrote to "/Users/admin/tmp/quick/regex-syntax-0.6.28-target-27bf9f8b1baf0cd5ff8e3e374ff3458b5570241906284dbf80140555fdd60a27.tar"
+STARTING BUILD
+"remove_dir_all-0.5.3-target-6dca201c2aa50fc5e3a77f607bbaeb7c49cf3e2b7cfe77a99ce4a9484a980ca0"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling remove_dir_all v0.5.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.34s
+wrote to "/Users/admin/tmp/quick/remove_dir_all-0.5.3-target-6dca201c2aa50fc5e3a77f607bbaeb7c49cf3e2b7cfe77a99ce4a9484a980ca0.tar"
+STARTING BUILD
+"rustversion-1.0.9-host-25fa27482032d88ff73d3e549a07af2091f6918c95364da8417ea87b6e85d6e4"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/rustversion-1.0.9-host-25fa27482032d88ff73d3e549a07af2091f6918c95364da8417ea87b6e85d6e4.tar"
+STARTING BUILD
+"ryu-1.0.11-target-1b386d8bc3be374a8587ea259a644c06e74cc5eed59f31ae0e7a8f8c6054409e"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling ryu v1.0.11
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.44s
+wrote to "/Users/admin/tmp/quick/ryu-1.0.11-target-1b386d8bc3be374a8587ea259a644c06e74cc5eed59f31ae0e7a8f8c6054409e.tar"
+STARTING BUILD
+"strsim-0.8.0-target-6f6351abfc6444914f93f910dc9334a0b0ddc8748c807015710a3294c6888db6"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling strsim v0.8.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.52s
+wrote to "/Users/admin/tmp/quick/strsim-0.8.0-target-6f6351abfc6444914f93f910dc9334a0b0ddc8748c807015710a3294c6888db6.tar"
+STARTING BUILD
+"target-2.0.0-target-1351038d2dfe0d00899735083973d765de1b8f1c0c1189c9293167f61668e2a1"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling target v2.0.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.35s
+wrote to "/Users/admin/tmp/quick/target-2.0.0-target-1351038d2dfe0d00899735083973d765de1b8f1c0c1189c9293167f61668e2a1.tar"
+STARTING BUILD
+"termcolor-1.1.3-target-198f7e01707d8700b622bdaba112edd508a1f88fed5e9b1d3fd064a92d572b4e"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling termcolor v1.1.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.54s
+wrote to "/Users/admin/tmp/quick/termcolor-1.1.3-target-198f7e01707d8700b622bdaba112edd508a1f88fed5e9b1d3fd064a92d572b4e.tar"
+STARTING BUILD
+"typed-arena-2.0.1-target-fc3076a2fd12cc60fe75ed955283aec5314eb7adf3c51e8fc83713adcb6c0a36"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling typed-arena v2.0.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.38s
+wrote to "/Users/admin/tmp/quick/typed-arena-2.0.1-target-fc3076a2fd12cc60fe75ed955283aec5314eb7adf3c51e8fc83713adcb6c0a36.tar"
+STARTING BUILD
+"typenum-1.15.0-target-ade404e86f4f379801b6d7c15d51ebc9dcbe7de56160aa634c8106b4a844b7b5"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling typenum v1.15.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.18s
+wrote to "/Users/admin/tmp/quick/typenum-1.15.0-target-ade404e86f4f379801b6d7c15d51ebc9dcbe7de56160aa634c8106b4a844b7b5.tar"
+STARTING BUILD
+"unicode-ident-1.0.5-host-d70963ae4d473db9d5e30abd057d94218d79f82c569180f1fc4be084e8f6f0e4"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/unicode-ident-1.0.5-host-d70963ae4d473db9d5e30abd057d94218d79f82c569180f1fc4be084e8f6f0e4.tar"
+STARTING BUILD
+"unicode-segmentation-1.10.0-target-145653ec912a003d55e3a29c79c82b0aa817297441b193d12494fb56dbd1a07d"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling unicode-segmentation v1.10.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.58s
+wrote to "/Users/admin/tmp/quick/unicode-segmentation-1.10.0-target-145653ec912a003d55e3a29c79c82b0aa817297441b193d12494fb56dbd1a07d.tar"
+STARTING BUILD
+"unicode-width-0.1.10-target-f4a2a51a4b77d04413e5f04358a640c67f11544220167108f76fb4956efe73c7"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling unicode-width v0.1.10
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.37s
+wrote to "/Users/admin/tmp/quick/unicode-width-0.1.10-target-f4a2a51a4b77d04413e5f04358a640c67f11544220167108f76fb4956efe73c7.tar"
+STARTING BUILD
+"vec_map-0.8.2-target-cdf4da09156d1632ca9d53f3d633451b3324defe1831e124640cc4b325271192"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling vec_map v0.8.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.39s
+wrote to "/Users/admin/tmp/quick/vec_map-0.8.2-target-cdf4da09156d1632ca9d53f3d633451b3324defe1831e124640cc4b325271192.tar"
+STARTING BUILD
+"version_check-0.9.4-host-6e2e8fa1c81a8393f8caeeb18d1c7f4ec9867d3fdb4351e906bea3762b305d18"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.35s
+wrote to "/Users/admin/tmp/quick/version_check-0.9.4-host-6e2e8fa1c81a8393f8caeeb18d1c7f4ec9867d3fdb4351e906bea3762b305d18.tar"
+START OF LEVEL 1
+[cargo-quickbuild/src/scheduler.rs:40] &current_level = {
+    (
+        PackageId {
+            name: "aho-corasick",
+            version: "0.7.20",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "atty",
+            version: "0.2.14",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "bstr",
+            version: "0.2.17",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "cpufeatures",
+            version: "0.2.5",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "generic-array",
+            version: "0.14.6",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "getrandom",
+            version: "0.2.8",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "log",
+            version: "0.4.17",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "nix",
+            version: "0.25.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "proc-macro2",
+            version: "1.0.47",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+    (
+        PackageId {
+            name: "tempfile",
+            version: "3.3.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "term_size",
+            version: "0.3.2",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+}
+STARTING BUILD
+"aho-corasick-0.7.20-target-54ffb6fb683e87889da80722b76b92daf03b7110e291e10f7ea50b10d91fbd1e"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling aho-corasick v0.7.20
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.20s
+wrote to "/Users/admin/tmp/quick/aho-corasick-0.7.20-target-54ffb6fb683e87889da80722b76b92daf03b7110e291e10f7ea50b10d91fbd1e.tar"
+STARTING BUILD
+"atty-0.2.14-target-fad19f1a00cf86a46493675846fef93c5daa4c20d5aef0cc77eebac61ca3a653"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling atty v0.2.14
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.50s
+wrote to "/Users/admin/tmp/quick/atty-0.2.14-target-fad19f1a00cf86a46493675846fef93c5daa4c20d5aef0cc77eebac61ca3a653.tar"
+STARTING BUILD
+"bstr-0.2.17-target-c357ffc709c2753ef2a412cacf23deaf4ededf99589157cee429471400e4afd6"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling bstr v0.2.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.04s
+wrote to "/Users/admin/tmp/quick/bstr-0.2.17-target-c357ffc709c2753ef2a412cacf23deaf4ededf99589157cee429471400e4afd6.tar"
+STARTING BUILD
+"cpufeatures-0.2.5-target-54676581af02b69d4f3ea274ad72072ea5fed0c5db76a209ba42d9fabf09156c"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cpufeatures v0.2.5
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.59s
+wrote to "/Users/admin/tmp/quick/cpufeatures-0.2.5-target-54676581af02b69d4f3ea274ad72072ea5fed0c5db76a209ba42d9fabf09156c.tar"
+STARTING BUILD
+"generic-array-0.14.6-target-2a9fe921b8e4487cf9c8fc8ee800fad4f5a02713c5479a1a9dba029416be4f21"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling version_check v0.9.4
+   Compiling generic-array v0.14.6
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.30s
+wrote to "/Users/admin/tmp/quick/generic-array-0.14.6-target-2a9fe921b8e4487cf9c8fc8ee800fad4f5a02713c5479a1a9dba029416be4f21.tar"
+STARTING BUILD
+"getrandom-0.2.8-target-3517caa8cc8522b0fb819adeaf506b63d9faeb6dfd8528942cc0e038801ccf55"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling getrandom v0.2.8
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.26s
+wrote to "/Users/admin/tmp/quick/getrandom-0.2.8-target-3517caa8cc8522b0fb819adeaf506b63d9faeb6dfd8528942cc0e038801ccf55.tar"
+STARTING BUILD
+"log-0.4.17-target-f7c7211266f8ef52c56a2c29d4ff0bf79dd9247296ea15ed42d503d69a37cc1f"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling log v0.4.17
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.62s
+wrote to "/Users/admin/tmp/quick/log-0.4.17-target-f7c7211266f8ef52c56a2c29d4ff0bf79dd9247296ea15ed42d503d69a37cc1f.tar"
+STARTING BUILD
+"nix-0.25.0-target-c40ff3442f6a56a296a10fc07251a27a018808db57bd1bb402334abebaf8f5df"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling nix v0.25.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.20s
+wrote to "/Users/admin/tmp/quick/nix-0.25.0-target-c40ff3442f6a56a296a10fc07251a27a018808db57bd1bb402334abebaf8f5df.tar"
+STARTING BUILD
+"proc-macro2-1.0.47-host-9e21c50c526b041e94f107b248210dbda6929ec0356a62de660c0b3c6ce96a7e"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.58s
+wrote to "/Users/admin/tmp/quick/proc-macro2-1.0.47-host-9e21c50c526b041e94f107b248210dbda6929ec0356a62de660c0b3c6ce96a7e.tar"
+STARTING BUILD
+"tempfile-3.3.0-target-c5d3212c682124efed80fa1b0dc47d27ddf93cb02595cc9c56048b6686891e8d"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling tempfile v3.3.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.57s
+wrote to "/Users/admin/tmp/quick/tempfile-3.3.0-target-c5d3212c682124efed80fa1b0dc47d27ddf93cb02595cc9c56048b6686891e8d.tar"
+STARTING BUILD
+"term_size-0.3.2-target-b6bb3078486f1117295751d0d7c17379c1edbe35ba586913c4b38f69a4bf7bc1"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling term_size v0.3.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.37s
+wrote to "/Users/admin/tmp/quick/term_size-0.3.2-target-b6bb3078486f1117295751d0d7c17379c1edbe35ba586913c4b38f69a4bf7bc1.tar"
+START OF LEVEL 2
+[cargo-quickbuild/src/scheduler.rs:40] &current_level = {
+    (
+        PackageId {
+            name: "block-buffer",
+            version: "0.10.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "crypto-common",
+            version: "0.1.6",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "ctrlc",
+            version: "3.2.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "quote",
+            version: "1.0.21",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+    (
+        PackageId {
+            name: "regex",
+            version: "1.7.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "similar",
+            version: "2.2.1",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "textwrap",
+            version: "0.11.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "uuid",
+            version: "1.2.2",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+}
+STARTING BUILD
+"block-buffer-0.10.3-target-c1c3a89029f01124f21880cab400f5b16e68371bfb647c72c5df23cfe5f8536d"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling block-buffer v0.10.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.38s
+wrote to "/Users/admin/tmp/quick/block-buffer-0.10.3-target-c1c3a89029f01124f21880cab400f5b16e68371bfb647c72c5df23cfe5f8536d.tar"
+STARTING BUILD
+"crypto-common-0.1.6-target-835f31a886448f69d045e305c527a8006a82c432b0e8a31da6a3f86b1d1ec158"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling crypto-common v0.1.6
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.66s
+wrote to "/Users/admin/tmp/quick/crypto-common-0.1.6-target-835f31a886448f69d045e305c527a8006a82c432b0e8a31da6a3f86b1d1ec158.tar"
+STARTING BUILD
+"ctrlc-3.2.3-target-d4b1aa70a8ff17ad7c3837691ab3850433df87522953ebe5e99b76c7f439e93c"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling ctrlc v3.2.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.40s
+wrote to "/Users/admin/tmp/quick/ctrlc-3.2.3-target-d4b1aa70a8ff17ad7c3837691ab3850433df87522953ebe5e99b76c7f439e93c.tar"
+STARTING BUILD
+"quote-1.0.21-host-52ebd68fd3a53e63e7f9aba6454dadcb8afdcb319cab8569a5fcc8019ca208aa"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.33s
+wrote to "/Users/admin/tmp/quick/quote-1.0.21-host-52ebd68fd3a53e63e7f9aba6454dadcb8afdcb319cab8569a5fcc8019ca208aa.tar"
+STARTING BUILD
+"regex-1.7.0-target-0d27cb09bd5cc066ac8494fdc331a86217b9dfbb2a796f0984a495465e46bb96"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling regex v1.7.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.40s
+wrote to "/Users/admin/tmp/quick/regex-1.7.0-target-0d27cb09bd5cc066ac8494fdc331a86217b9dfbb2a796f0984a495465e46bb96.tar"
+STARTING BUILD
+"similar-2.2.1-target-c85eca48c1c74e63ae9e1fc511b40f7d4f8fabb00cf91bc73722acd6c0e0e6a9"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling similar v2.2.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.09s
+wrote to "/Users/admin/tmp/quick/similar-2.2.1-target-c85eca48c1c74e63ae9e1fc511b40f7d4f8fabb00cf91bc73722acd6c0e0e6a9.tar"
+STARTING BUILD
+"textwrap-0.11.0-target-608d40d3b6d664e07c4b7e7d66e8e55a62fb44e73620c06a9bd330537c1b5640"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling textwrap v0.11.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.50s
+wrote to "/Users/admin/tmp/quick/textwrap-0.11.0-target-608d40d3b6d664e07c4b7e7d66e8e55a62fb44e73620c06a9bd330537c1b5640.tar"
+STARTING BUILD
+"uuid-1.2.2-target-6776aa7c19dba0461798a5911b3ae590399aecce8bf82d2d0feb0c0d8696b42f"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling uuid v1.2.2
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.49s
+wrote to "/Users/admin/tmp/quick/uuid-1.2.2-target-6776aa7c19dba0461798a5911b3ae590399aecce8bf82d2d0feb0c0d8696b42f.tar"
+START OF LEVEL 3
+[cargo-quickbuild/src/scheduler.rs:40] &current_level = {
+    (
+        PackageId {
+            name: "clap",
+            version: "2.34.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "digest",
+            version: "0.10.6",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "env_logger",
+            version: "0.9.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "syn",
+            version: "1.0.103",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+}
+STARTING BUILD
+"clap-2.34.0-target-5c2b60f990a7d513902d4c2123a241d7a4af9e520d60be0b9facca7f1ea433b4"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling clap v2.34.0
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 3.02s
+wrote to "/Users/admin/tmp/quick/clap-2.34.0-target-5c2b60f990a7d513902d4c2123a241d7a4af9e520d60be0b9facca7f1ea433b4.tar"
+STARTING BUILD
+"digest-0.10.6-target-0a874fdaa1e1a09fcfde6a9bc858fe09ef6c81716dbffd7ec2229f4de5a89fc5"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling digest v0.10.6
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.41s
+wrote to "/Users/admin/tmp/quick/digest-0.10.6-target-0a874fdaa1e1a09fcfde6a9bc858fe09ef6c81716dbffd7ec2229f4de5a89fc5.tar"
+STARTING BUILD
+"env_logger-0.9.3-target-c73a44991e0996ba541ab083bc4c3da1e40fe3eeaa504771074073111840c68a"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling env_logger v0.9.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.77s
+wrote to "/Users/admin/tmp/quick/env_logger-0.9.3-target-c73a44991e0996ba541ab083bc4c3da1e40fe3eeaa504771074073111840c68a.tar"
+STARTING BUILD
+"syn-1.0.103-host-a39582b4dbeefccad09a12332d8877403341b87cc07c31a9b65174d9a6abf693"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.31s
+wrote to "/Users/admin/tmp/quick/syn-1.0.103-host-a39582b4dbeefccad09a12332d8877403341b87cc07c31a9b65174d9a6abf693.tar"
+START OF LEVEL 4
+[cargo-quickbuild/src/scheduler.rs:40] &current_level = {
+    (
+        PackageId {
+            name: "derivative",
+            version: "2.2.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+    (
+        PackageId {
+            name: "serde_derive",
+            version: "1.0.147",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+    (
+        PackageId {
+            name: "sha2",
+            version: "0.10.6",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "snafu-derive",
+            version: "0.7.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+    (
+        PackageId {
+            name: "strum_macros",
+            version: "0.24.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            HostDep,
+        ),
+    ),
+}
+STARTING BUILD
+"derivative-2.2.0-host-7a0110e0cc155b6f573e9db52d3f19177c1f4d55e8ab9097c9321677528cdf0e"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/derivative-2.2.0-host-7a0110e0cc155b6f573e9db52d3f19177c1f4d55e8ab9097c9321677528cdf0e.tar"
+STARTING BUILD
+"serde_derive-1.0.147-host-01dacd3ef8617db3d419290b1ecd9c808a02c571f4e1c26abfe629acf27212a3"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.31s
+wrote to "/Users/admin/tmp/quick/serde_derive-1.0.147-host-01dacd3ef8617db3d419290b1ecd9c808a02c571f4e1c26abfe629acf27212a3.tar"
+STARTING BUILD
+"sha2-0.10.6-target-7bd2bdba686e17fe340be7b9db934d15f886c857dc6b3a5ef4d6706ce8621edd"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling sha2 v0.10.6
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.48s
+wrote to "/Users/admin/tmp/quick/sha2-0.10.6-target-7bd2bdba686e17fe340be7b9db934d15f886c857dc6b3a5ef4d6706ce8621edd.tar"
+STARTING BUILD
+"snafu-derive-0.7.3-host-c9f54f972c0aa9ff1b6f1fae3bfa6cd4006a681c91961bb1b7f7e14bac2881f3"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/snafu-derive-0.7.3-host-c9f54f972c0aa9ff1b6f1fae3bfa6cd4006a681c91961bb1b7f7e14bac2881f3.tar"
+STARTING BUILD
+"strum_macros-0.24.3-host-16394b81ff8dc1f47bdf9a44411d6e18f9c525a10d603e6263802de59c3bb9b6"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.30s
+wrote to "/Users/admin/tmp/quick/strum_macros-0.24.3-host-16394b81ff8dc1f47bdf9a44411d6e18f9c525a10d603e6263802de59c3bb9b6.tar"
+START OF LEVEL 5
+[cargo-quickbuild/src/scheduler.rs:40] &current_level = {
+    (
+        PackageId {
+            name: "serde",
+            version: "1.0.147",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "snafu",
+            version: "0.7.3",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+    (
+        PackageId {
+            name: "strum",
+            version: "0.24.1",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+}
+STARTING BUILD
+"serde-1.0.147-target-4de7ef022ee4b1e0620e819f29feca147effe3b25b9e73a9485705d92170e0c1"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling proc-macro2 v1.0.47
+   Compiling quote v1.0.21
+   Compiling unicode-ident v1.0.5
+   Compiling syn v1.0.103
+   Compiling serde_derive v1.0.147
+   Compiling serde v1.0.147
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 10.21s
+wrote to "/Users/admin/tmp/quick/serde-1.0.147-target-4de7ef022ee4b1e0620e819f29feca147effe3b25b9e73a9485705d92170e0c1.tar"
+STARTING BUILD
+"snafu-0.7.3-target-0cd9e68764712712aaa86af225c889312e5dc2b6e88a29d3333eb2014f69776d"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling proc-macro2 v1.0.47
+   Compiling unicode-ident v1.0.5
+   Compiling quote v1.0.21
+   Compiling syn v1.0.103
+   Compiling heck v0.4.0
+   Compiling snafu-derive v0.7.3
+   Compiling snafu v0.7.3
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 8.69s
+wrote to "/Users/admin/tmp/quick/snafu-0.7.3-target-0cd9e68764712712aaa86af225c889312e5dc2b6e88a29d3333eb2014f69776d.tar"
+STARTING BUILD
+"strum-0.24.1-target-3da3af5d78a6d2f4d58081ee2a332709c2fdee7e1e2f178d60caf5ff26af9bb2"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling proc-macro2 v1.0.47
+   Compiling quote v1.0.21
+   Compiling unicode-ident v1.0.5
+   Compiling syn v1.0.103
+   Compiling rustversion v1.0.9
+   Compiling heck v0.4.0
+   Compiling strum_macros v0.24.3
+   Compiling strum v0.24.1
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 8.25s
+wrote to "/Users/admin/tmp/quick/strum-0.24.1-target-3da3af5d78a6d2f4d58081ee2a332709c2fdee7e1e2f178d60caf5ff26af9bb2.tar"
+START OF LEVEL 6
+[cargo-quickbuild/src/scheduler.rs:40] &current_level = {
+    (
+        PackageId {
+            name: "serde_json",
+            version: "1.0.89",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+}
+STARTING BUILD
+"serde_json-1.0.89-target-76d1092ac347bdc563d23ffe1994c5845891d678c4c469c477ba4d68a98cc096"
+     Created binary (application) package
+    Updating crates.io index
+   Compiling serde_json v1.0.89
+   Compiling cargo-quickbuild-scratchpad v0.1.0 (/private/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-scratchpad/cargo-quickbuild-scratchpad)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.40s
+wrote to "/Users/admin/tmp/quick/serde_json-1.0.89-target-76d1092ac347bdc563d23ffe1994c5845891d678c4c469c477ba4d68a98cc096.tar"
+START OF LEVEL 7
+[cargo-quickbuild/src/scheduler.rs:40] &current_level = {
+    (
+        PackageId {
+            name: "just",
+            version: "1.8.0",
+            source: "registry `crates-io`",
+        },
+        BuildFor(
+            NormalOrDev,
+        ),
+    ),
+}
+🎉 We're done here 🎉
+2022-11-22 15:38:55.829351254 != 2022-11-22 15:38:44.569273517 for "target/debug/.fingerprint/proc-macro2-d645067aeca53313/run-build-script-build-script-build.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-d645067aeca53313/run-build-script-build-script-build.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.712983 UTC)
+contents identical
+2022-11-22 15:38:55.829263042 != 2022-11-22 15:38:44.569209596 for "target/debug/.fingerprint/proc-macro2-d645067aeca53313/run-build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-d645067aeca53313/run-build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.713168 UTC)
+contents identical
+2022-11-22 15:38:55.430292502 != 2022-11-22 15:38:43.928129005 for "target/debug/.fingerprint/syn-109911e68fa14eee/dep-build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-109911e68fa14eee/dep-build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.713309 UTC)
+contents identical
+2022-11-22 15:38:55.430292502 != 2022-11-22 15:38:43.928129005 for "target/debug/.fingerprint/syn-109911e68fa14eee/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-109911e68fa14eee/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.713449 UTC)
+contents identical
+2022-11-22 15:38:55.634946514 != 2022-11-22 15:38:44.136951997 for "target/debug/.fingerprint/syn-109911e68fa14eee/build-script-build-script-build.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-109911e68fa14eee/build-script-build-script-build.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.713590 UTC)
+contents identical
+2022-11-22 15:38:55.634875678 != 2022-11-22 15:38:44.136870075 for "target/debug/.fingerprint/syn-109911e68fa14eee/build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-109911e68fa14eee/build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.713757 UTC)
+contents identical
+2022-11-22 15:38:55.864386552 != 2022-11-22 15:38:44.605172169 for "target/debug/.fingerprint/quote-6e81f9e3a90f4555/run-build-script-build-script-build.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-6e81f9e3a90f4555/run-build-script-build-script-build.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.713893 UTC)
+contents identical
+2022-11-22 15:38:55.864320633 != 2022-11-22 15:38:44.605066079 for "target/debug/.fingerprint/quote-6e81f9e3a90f4555/run-build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-6e81f9e3a90f4555/run-build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.714088 UTC)
+contents identical
+2022-11-22 15:38:55.791624904 != 2022-11-22 15:37:52.830905862 for "target/debug/.fingerprint/heck-86855baf91ddc106/lib-heck" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/heck-86855baf91ddc106/lib-heck"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.714254 UTC)
+contents identical
+2022-11-22 15:38:55.635518117 != 2022-11-22 15:37:52.674430571 for "target/debug/.fingerprint/heck-86855baf91ddc106/dep-lib-heck" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/heck-86855baf91ddc106/dep-lib-heck"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.714531 UTC)
+contents identical
+2022-11-22 15:38:55.791685698 != 2022-11-22 15:37:52.830975821 for "target/debug/.fingerprint/heck-86855baf91ddc106/lib-heck.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/heck-86855baf91ddc106/lib-heck.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.714765 UTC)
+contents identical
+2022-11-22 15:38:55.635518117 != 2022-11-22 15:37:52.674430571 for "target/debug/.fingerprint/heck-86855baf91ddc106/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/heck-86855baf91ddc106/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.714947 UTC)
+contents identical
+2022-11-22 15:38:55.240135868 != 2022-11-22 15:38:43.671300481 for "target/debug/.fingerprint/quote-09a3cb1cafefdca2/dep-build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-09a3cb1cafefdca2/dep-build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.715114 UTC)
+contents identical
+2022-11-22 15:38:55.240135868 != 2022-11-22 15:38:43.671300481 for "target/debug/.fingerprint/quote-09a3cb1cafefdca2/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-09a3cb1cafefdca2/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.715443 UTC)
+contents identical
+2022-11-22 15:38:55.430026785 != 2022-11-22 15:38:43.861260459 for "target/debug/.fingerprint/quote-09a3cb1cafefdca2/build-script-build-script-build.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-09a3cb1cafefdca2/build-script-build-script-build.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.715653 UTC)
+contents identical
+2022-11-22 15:38:55.429958407 != 2022-11-22 15:38:43.861190787 for "target/debug/.fingerprint/quote-09a3cb1cafefdca2/build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-09a3cb1cafefdca2/build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.715836 UTC)
+contents identical
+2022-11-22 15:38:55.174634388 != 2022-11-22 15:38:43.861478766 for "target/debug/.fingerprint/unicode-ident-ff0b86005d37fb28/dep-lib-unicode-ident" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/unicode-ident-ff0b86005d37fb28/dep-lib-unicode-ident"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.716042 UTC)
+contents identical
+2022-11-22 15:38:55.239941736 != 2022-11-22 15:38:43.927875737 for "target/debug/.fingerprint/unicode-ident-ff0b86005d37fb28/lib-unicode-ident.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/unicode-ident-ff0b86005d37fb28/lib-unicode-ident.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.716208 UTC)
+contents identical
+2022-11-22 15:38:55.239880442 != 2022-11-22 15:38:43.927783189 for "target/debug/.fingerprint/unicode-ident-ff0b86005d37fb28/lib-unicode-ident" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/unicode-ident-ff0b86005d37fb28/lib-unicode-ident"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.716414 UTC)
+contents identical
+2022-11-22 15:38:55.174634388 != 2022-11-22 15:38:43.861478766 for "target/debug/.fingerprint/unicode-ident-ff0b86005d37fb28/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/unicode-ident-ff0b86005d37fb28/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.716583 UTC)
+contents identical
+2022-11-22 15:38:55.901331666 != 2022-11-22 15:38:44.640987650 for "target/debug/.fingerprint/syn-2bd6aebba5aba2c7/run-build-script-build-script-build.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-2bd6aebba5aba2c7/run-build-script-build-script-build.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.716890 UTC)
+contents identical
+2022-11-22 15:38:55.901245038 != 2022-11-22 15:38:44.640918271 for "target/debug/.fingerprint/syn-2bd6aebba5aba2c7/run-build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-2bd6aebba5aba2c7/run-build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.717137 UTC)
+contents identical
+2022-11-22 15:38:54.960665804 != 2022-11-22 15:38:43.448055095 for "target/debug/.fingerprint/proc-macro2-85c02889416fc25d/dep-build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-85c02889416fc25d/dep-build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.717356 UTC)
+contents identical
+2022-11-22 15:38:54.960665804 != 2022-11-22 15:38:43.448055095 for "target/debug/.fingerprint/proc-macro2-85c02889416fc25d/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-85c02889416fc25d/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.717518 UTC)
+contents identical
+2022-11-22 15:38:55.174366796 != 2022-11-22 15:38:43.671017836 for "target/debug/.fingerprint/proc-macro2-85c02889416fc25d/build-script-build-script-build.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-85c02889416fc25d/build-script-build-script-build.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.717679 UTC)
+contents identical
+2022-11-22 15:38:55.174298127 != 2022-11-22 15:38:43.670936164 for "target/debug/.fingerprint/proc-macro2-85c02889416fc25d/build-script-build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-85c02889416fc25d/build-script-build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.717853 UTC)
+contents identical
+2022-11-22 15:38:56.614015589 != 2022-11-22 15:38:45.409276934 for "target/debug/.fingerprint/quote-ed88a5954100c1b3/lib-quote" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-ed88a5954100c1b3/lib-quote"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.718107 UTC)
+contents identical
+2022-11-22 15:38:56.393674156 != 2022-11-22 15:38:45.193950678 for "target/debug/.fingerprint/quote-ed88a5954100c1b3/dep-lib-quote" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-ed88a5954100c1b3/dep-lib-quote"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.718270 UTC)
+contents identical
+2022-11-22 15:38:56.614074508 != 2022-11-22 15:38:45.409355314 for "target/debug/.fingerprint/quote-ed88a5954100c1b3/lib-quote.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-ed88a5954100c1b3/lib-quote.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.718507 UTC)
+contents identical
+2022-11-22 15:38:56.393674156 != 2022-11-22 15:38:45.193950678 for "target/debug/.fingerprint/quote-ed88a5954100c1b3/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/quote-ed88a5954100c1b3/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.718686 UTC)
+contents identical
+2022-11-22 15:38:55.901659844 != 2022-11-22 15:38:44.709343771 for "target/debug/.fingerprint/proc-macro2-8d7bc903105fd413/dep-lib-proc-macro2" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-8d7bc903105fd413/dep-lib-proc-macro2"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.719624 UTC)
+contents identical
+2022-11-22 15:38:56.393410689 != 2022-11-22 15:38:45.193696704 for "target/debug/.fingerprint/proc-macro2-8d7bc903105fd413/lib-proc-macro2.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-8d7bc903105fd413/lib-proc-macro2.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.719809 UTC)
+contents identical
+2022-11-22 15:38:55.901659844 != 2022-11-22 15:38:44.709343771 for "target/debug/.fingerprint/proc-macro2-8d7bc903105fd413/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-8d7bc903105fd413/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.719975 UTC)
+contents identical
+2022-11-22 15:38:56.393355854 != 2022-11-22 15:38:45.193619116 for "target/debug/.fingerprint/proc-macro2-8d7bc903105fd413/lib-proc-macro2" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/proc-macro2-8d7bc903105fd413/lib-proc-macro2"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.720194 UTC)
+contents identical
+2022-11-22 15:39:00.605473950 != 2022-11-22 15:38:49.274517725 for "target/debug/.fingerprint/syn-c5b2e1aa124d4b07/lib-syn.json" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-c5b2e1aa124d4b07/lib-syn.json"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.720867 UTC)
+contents identical
+2022-11-22 15:38:56.614244222 != 2022-11-22 15:38:45.409535658 for "target/debug/.fingerprint/syn-c5b2e1aa124d4b07/dep-lib-syn" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-c5b2e1aa124d4b07/dep-lib-syn"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.721038 UTC)
+contents identical
+2022-11-22 15:39:00.605404198 != 2022-11-22 15:38:49.274454722 for "target/debug/.fingerprint/syn-c5b2e1aa124d4b07/lib-syn" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-c5b2e1aa124d4b07/lib-syn"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.721210 UTC)
+contents identical
+2022-11-22 15:38:56.614244222 != 2022-11-22 15:38:45.409535658 for "target/debug/.fingerprint/syn-c5b2e1aa124d4b07/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/.fingerprint/syn-c5b2e1aa124d4b07/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.721402 UTC)
+contents identical
+2022-11-22 15:38:56.390048746 != 2022-11-22 15:38:45.190287868 for "target/debug/deps/libproc_macro2-8d7bc903105fd413.rlib" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libproc_macro2-8d7bc903105fd413.rlib"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.721600 UTC)
+contents identical
+2022-11-22 15:38:56.610845860 != 2022-11-22 15:38:45.406593935 for "target/debug/deps/libquote-ed88a5954100c1b3.rlib" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libquote-ed88a5954100c1b3.rlib"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.724240 UTC)
+contents identical
+2022-11-22 15:38:56.103038460 != 2022-11-22 15:38:44.899819133 for "target/debug/deps/libproc_macro2-8d7bc903105fd413.rmeta" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libproc_macro2-8d7bc903105fd413.rmeta"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.728267 UTC)
+contents identical
+2022-11-22 15:38:56.785739928 != 2022-11-22 15:38:45.573508900 for "target/debug/deps/syn-c5b2e1aa124d4b07.d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/syn-c5b2e1aa124d4b07.d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.728822 UTC)
+contents identical
+2022-11-22 15:38:56.490504164 != 2022-11-22 15:38:45.291837075 for "target/debug/deps/libquote-ed88a5954100c1b3.rmeta" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libquote-ed88a5954100c1b3.rmeta"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.733560 UTC)
+contents identical
+2022-11-22 15:38:55.950448373 != 2022-11-22 15:38:44.756654633 for "target/debug/deps/proc_macro2-8d7bc903105fd413.d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/proc_macro2-8d7bc903105fd413.d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.734194 UTC)
+contents identical
+2022-11-22 15:38:58.279865215 != 2022-11-22 15:38:46.998098678 for "target/debug/deps/libsyn-c5b2e1aa124d4b07.rmeta" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libsyn-c5b2e1aa124d4b07.rmeta"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.734474 UTC)
+contents identical
+2022-11-22 15:38:55.788991896 != 2022-11-22 15:37:52.827988821 for "target/debug/deps/libheck-86855baf91ddc106.rlib" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libheck-86855baf91ddc106.rlib"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.738934 UTC)
+contents identical
+2022-11-22 15:38:56.436289345 != 2022-11-22 15:38:45.237360117 for "target/debug/deps/quote-ed88a5954100c1b3.d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/quote-ed88a5954100c1b3.d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.740366 UTC)
+contents identical
+2022-11-22 15:38:55.212646540 != 2022-11-22 15:38:43.900451988 for "target/debug/deps/unicode_ident-ff0b86005d37fb28.d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/unicode_ident-ff0b86005d37fb28.d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.758394 UTC)
+contents identical
+2022-11-22 15:39:00.575114608 != 2022-11-22 15:38:49.255214573 for "target/debug/deps/libsyn-c5b2e1aa124d4b07.rlib" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libsyn-c5b2e1aa124d4b07.rlib"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.760414 UTC)
+contents identical
+2022-11-22 15:38:55.238311846 != 2022-11-22 15:38:43.926028650 for "target/debug/deps/libunicode_ident-ff0b86005d37fb28.rlib" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libunicode_ident-ff0b86005d37fb28.rlib"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.773015 UTC)
+contents identical
+2022-11-22 15:38:55.226527604 != 2022-11-22 15:38:43.914318624 for "target/debug/deps/libunicode_ident-ff0b86005d37fb28.rmeta" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libunicode_ident-ff0b86005d37fb28.rmeta"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.774395 UTC)
+contents identical
+2022-11-22 15:38:55.703476556 != 2022-11-22 15:37:52.740893237 for "target/debug/deps/libheck-86855baf91ddc106.rmeta" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/libheck-86855baf91ddc106.rmeta"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.776020 UTC)
+contents identical
+2022-11-22 15:38:55.673935157 != 2022-11-22 15:37:52.711731779 for "target/debug/deps/heck-86855baf91ddc106.d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/deps/heck-86855baf91ddc106.d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.777407 UTC)
+contents identical
+2022-11-22 15:38:55.829043326 != 2022-11-22 15:38:44.569034751 for "target/debug/build/proc-macro2-d645067aeca53313/stderr" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-d645067aeca53313/stderr"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.779472 UTC)
+contents identical
+2022-11-22 15:38:55.791924039 != 2022-11-22 15:38:44.532894499 for "target/debug/build/proc-macro2-d645067aeca53313/output" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-d645067aeca53313/output"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.779652 UTC)
+contents identical
+2022-11-22 15:38:55.829102495 != 2022-11-22 15:38:44.569090379 for "target/debug/build/proc-macro2-d645067aeca53313/root-output" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-d645067aeca53313/root-output"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.779836 UTC)
+contents identical
+2022-11-22 15:38:55.791924039 != 2022-11-22 15:38:44.532894499 for "target/debug/build/proc-macro2-d645067aeca53313/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-d645067aeca53313/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.780012 UTC)
+contents identical
+2022-11-22 15:38:55.576819082 != 2022-11-22 15:38:44.077958409 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.3.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.3.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.780251 UTC)
+contents identical
+2022-11-22 15:38:55.548043709 != 2022-11-22 15:38:44.049082218 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.15.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.15.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.780496 UTC)
+contents identical
+2022-11-22 15:38:55.499063928 != 2022-11-22 15:38:43.998433970 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.1.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.1.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.780709 UTC)
+contents identical
+2022-11-22 15:38:55.631596481 != 2022-11-22 15:38:44.133859794 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.780918 UTC)
+contents identical
+2022-11-22 15:38:55.570847708 != 2022-11-22 15:38:44.071983932 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.5.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.5.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.781584 UTC)
+contents identical
+2022-11-22 15:38:55.557148317 != 2022-11-22 15:38:44.058010013 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.9.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.9.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.781786 UTC)
+contents identical
+2022-11-22 15:38:55.530033210 != 2022-11-22 15:38:44.030820850 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.11.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.11.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.782230 UTC)
+contents identical
+2022-11-22 15:38:55.495635726 != 2022-11-22 15:38:43.994864485 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.13.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.13.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.782512 UTC)
+contents identical
+2022-11-22 15:38:55.581501703 != 2022-11-22 15:38:44.082485498 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.7.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.7.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.782702 UTC)
+contents identical
+2022-11-22 15:38:55.524494309 != 2022-11-22 15:38:44.024933963 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.2.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.2.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.782935 UTC)
+contents identical
+2022-11-22 15:38:55.466731223 != 2022-11-22 15:38:43.965385671 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.783173 UTC)
+contents identical
+2022-11-22 15:38:55.504784168 != 2022-11-22 15:38:44.004247602 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.14.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.14.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.783361 UTC)
+contents identical
+2022-11-22 15:38:55.492963591 != 2022-11-22 15:38:43.991916083 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.0.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.0.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.783525 UTC)
+contents identical
+2022-11-22 15:38:55.564287939 != 2022-11-22 15:38:44.065298659 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.4.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.4.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.783695 UTC)
+contents identical
+2022-11-22 15:38:55.541998833 != 2022-11-22 15:38:44.043366383 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.10.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.10.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.783889 UTC)
+contents identical
+2022-11-22 15:38:55.536848780 != 2022-11-22 15:38:44.038327510 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.8.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.8.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.784117 UTC)
+contents identical
+2022-11-22 15:38:55.517087428 != 2022-11-22 15:38:44.016958188 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.12.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.12.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.784368 UTC)
+contents identical
+2022-11-22 15:38:55.631596481 != 2022-11-22 15:38:44.133859794 for "target/debug/build/syn-109911e68fa14eee/build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.784565 UTC)
+contents identical
+2022-11-22 15:38:55.511637280 != 2022-11-22 15:38:44.011294065 for "target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.6.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-109911e68fa14eee/build_script_build-109911e68fa14eee.build_script_build.799335e9-cgu.6.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.785342 UTC)
+contents identical
+2022-11-22 15:38:55.864154543 != 2022-11-22 15:38:44.604862191 for "target/debug/build/quote-6e81f9e3a90f4555/stderr" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-6e81f9e3a90f4555/stderr"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.785560 UTC)
+contents identical
+2022-11-22 15:38:55.829562303 != 2022-11-22 15:38:44.569534867 for "target/debug/build/quote-6e81f9e3a90f4555/output" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-6e81f9e3a90f4555/output"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.785690 UTC)
+contents identical
+2022-11-22 15:38:55.864220546 != 2022-11-22 15:38:44.604943821 for "target/debug/build/quote-6e81f9e3a90f4555/root-output" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-6e81f9e3a90f4555/root-output"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.785830 UTC)
+contents identical
+2022-11-22 15:38:55.829562303 != 2022-11-22 15:38:44.569534867 for "target/debug/build/quote-6e81f9e3a90f4555/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-6e81f9e3a90f4555/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.785994 UTC)
+contents identical
+2022-11-22 15:38:55.313954094 != 2022-11-22 15:38:43.745163474 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.13.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.13.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.786140 UTC)
+contents identical
+2022-11-22 15:38:55.277400035 != 2022-11-22 15:38:43.707850868 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.786321 UTC)
+contents identical
+2022-11-22 15:38:55.309860577 != 2022-11-22 15:38:43.740828755 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.1.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.1.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.786472 UTC)
+contents identical
+2022-11-22 15:38:55.338477235 != 2022-11-22 15:38:43.769970540 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.3.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.3.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.786655 UTC)
+contents identical
+2022-11-22 15:38:55.333519064 != 2022-11-22 15:38:43.764869267 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.11.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.11.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.786858 UTC)
+contents identical
+2022-11-22 15:38:55.426657668 != 2022-11-22 15:38:43.858352256 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.787038 UTC)
+contents identical
+2022-11-22 15:38:55.359616052 != 2022-11-22 15:38:43.791587967 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.7.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.7.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.787506 UTC)
+contents identical
+2022-11-22 15:38:55.350145848 != 2022-11-22 15:38:43.781927251 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.15.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.15.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.787730 UTC)
+contents identical
+2022-11-22 15:38:55.370743271 != 2022-11-22 15:38:43.802547858 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.5.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.5.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.787926 UTC)
+contents identical
+2022-11-22 15:38:55.343231025 != 2022-11-22 15:38:43.774786335 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.9.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.9.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.788127 UTC)
+contents identical
+2022-11-22 15:38:55.297970831 != 2022-11-22 15:38:43.728449431 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.0.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.0.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.788310 UTC)
+contents identical
+2022-11-22 15:38:55.324679174 != 2022-11-22 15:38:43.755780632 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.12.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.12.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.788496 UTC)
+contents identical
+2022-11-22 15:38:55.353731639 != 2022-11-22 15:38:43.785539420 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.10.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.10.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.788700 UTC)
+contents identical
+2022-11-22 15:38:55.329348336 != 2022-11-22 15:38:43.760390871 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.2.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.2.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.788867 UTC)
+contents identical
+2022-11-22 15:38:55.302434611 != 2022-11-22 15:38:43.733207722 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.14.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.14.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.789045 UTC)
+contents identical
+2022-11-22 15:38:55.376010078 != 2022-11-22 15:38:43.807694259 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.6.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.6.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.789221 UTC)
+contents identical
+2022-11-22 15:38:55.426657668 != 2022-11-22 15:38:43.858352256 for "target/debug/build/quote-09a3cb1cafefdca2/build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.789401 UTC)
+contents identical
+2022-11-22 15:38:55.321374934 != 2022-11-22 15:38:43.752581576 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.4.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.4.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.789823 UTC)
+contents identical
+2022-11-22 15:38:55.362052928 != 2022-11-22 15:38:43.793906171 for "target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.8.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/quote-09a3cb1cafefdca2/build_script_build-09a3cb1cafefdca2.build_script_build.79cbfc90-cgu.8.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.790055 UTC)
+contents identical
+2022-11-22 15:38:55.901031864 != 2022-11-22 15:38:44.640743134 for "target/debug/build/syn-2bd6aebba5aba2c7/stderr" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-2bd6aebba5aba2c7/stderr"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.790329 UTC)
+contents identical
+2022-11-22 15:38:55.864574266 != 2022-11-22 15:38:44.605380767 for "target/debug/build/syn-2bd6aebba5aba2c7/output" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-2bd6aebba5aba2c7/output"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.790540 UTC)
+contents identical
+2022-11-22 15:38:55.901090782 != 2022-11-22 15:38:44.640798179 for "target/debug/build/syn-2bd6aebba5aba2c7/root-output" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-2bd6aebba5aba2c7/root-output"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.790783 UTC)
+contents identical
+2022-11-22 15:38:55.864574266 != 2022-11-22 15:38:44.605380767 for "target/debug/build/syn-2bd6aebba5aba2c7/invoked.timestamp" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/syn-2bd6aebba5aba2c7/invoked.timestamp"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.791008 UTC)
+contents identical
+2022-11-22 15:38:54.996280747 != 2022-11-22 15:38:43.486014205 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.791210 UTC)
+contents identical
+2022-11-22 15:38:55.042272800 != 2022-11-22 15:38:43.535259520 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.14.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.14.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.791363 UTC)
+contents identical
+2022-11-22 15:38:55.027589582 != 2022-11-22 15:38:43.520020205 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.0.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.0.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.791586 UTC)
+contents identical
+2022-11-22 15:38:55.075169107 != 2022-11-22 15:38:43.569714635 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.2.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.2.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.791746 UTC)
+contents identical
+2022-11-22 15:38:55.091225663 != 2022-11-22 15:38:43.585975687 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.6.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.6.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.791914 UTC)
+contents identical
+2022-11-22 15:38:55.055586636 != 2022-11-22 15:38:43.549591312 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.12.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.12.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.792100 UTC)
+contents identical
+2022-11-22 15:38:55.083719111 != 2022-11-22 15:38:43.578599756 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.10.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.10.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.792279 UTC)
+contents identical
+2022-11-22 15:38:55.121546923 != 2022-11-22 15:38:43.615314737 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.4.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.4.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.792492 UTC)
+contents identical
+2022-11-22 15:38:55.049948566 != 2022-11-22 15:38:43.543396130 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.8.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.8.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.792663 UTC)
+contents identical
+2022-11-22 15:38:55.037127913 != 2022-11-22 15:38:43.529858642 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.1.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.1.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.792843 UTC)
+contents identical
+2022-11-22 15:38:55.062197907 != 2022-11-22 15:38:43.556424957 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.15.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.15.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.793010 UTC)
+contents identical
+2022-11-22 15:38:55.171557198 != 2022-11-22 15:38:43.666403889 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.793198 UTC)
+contents identical
+2022-11-22 15:38:55.103384918 != 2022-11-22 15:38:43.597822598 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.3.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.3.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.793651 UTC)
+contents identical
+2022-11-22 15:38:55.033519288 != 2022-11-22 15:38:43.526293435 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.13.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.13.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.793840 UTC)
+contents identical
+2022-11-22 15:38:55.115293665 != 2022-11-22 15:38:43.609168433 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.7.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.7.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.794037 UTC)
+contents identical
+2022-11-22 15:38:55.109956355 != 2022-11-22 15:38:43.603973570 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.5.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.5.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.794215 UTC)
+contents identical
+2022-11-22 15:38:55.171557198 != 2022-11-22 15:38:43.666403889 for "target/debug/build/proc-macro2-85c02889416fc25d/build-script-build" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build-script-build"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.794391 UTC)
+contents identical
+2022-11-22 15:38:55.095618691 != 2022-11-22 15:38:43.590275738 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.9.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.9.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.794778 UTC)
+contents identical
+2022-11-22 15:38:55.067967149 != 2022-11-22 15:38:43.562268156 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.11.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.11.rcgu.o"):
+(mtime != on_disk_mtime. now = 2022-11-22 15:39:14.794948 UTC)
+contents identical
+Error: unpacking PackageDescription { package_id: PackageId { name: "snafu", version: "0.7.3", source: "registry `crates-io`" }, pretty_digest: "snafu-0.7.3-target-0cd9e68764712712aaa86af225c889312e5dc2b6e88a29d3333eb2014f69776d" }
+
+Caused by:
+    2022-11-22 15:38:55.067967149 != 2022-11-22 15:38:43.562268156 for "target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.11.rcgu.o" ("/var/folders/0d/08wbx2j52nx5hjg16cshb8g80000gn/T/cargo-quickbuild-install-scratchpad/target/debug/build/proc-macro2-85c02889416fc25d/build_script_build-85c02889416fc25d.build_script_build.96776985-cgu.11.rcgu.o"):
+    (mtime != on_disk_mtime. now = 2022-11-22 15:39:14.794948 UTC)
+    contents identical
